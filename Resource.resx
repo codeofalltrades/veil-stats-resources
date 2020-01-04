@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Details" xml:space="preserve">
+    <value>DETAILS</value>
+  </data>
+  <data name="About_DetailsText1" xml:space="preserve">
+    <value>All images used with permission of the</value>
+  </data>
+  <data name="About_DetailsText2" xml:space="preserve">
+    <value>Price information provided by CoinGecko</value>
+  </data>
+  <data name="About_DetailsText3" xml:space="preserve">
+    <value>Pool information provided from each pool's API</value>
+  </data>
+  <data name="About_Enjoy" xml:space="preserve">
+    <value>ENJOY!</value>
+  </data>
+  <data name="About_Suggestion" xml:space="preserve">
+    <value>SUGGESTIONS?</value>
+  </data>
+  <data name="About_SuggestionText" xml:space="preserve">
+    <value>Tell me! codeofalltrades@outlook.com</value>
+  </data>
+  <data name="About_Why" xml:space="preserve">
+    <value>WHY?</value>
+  </data>
+  <data name="About_WhyReason" xml:space="preserve">
+    <value>The website was built to provide graphical information on the Veil network.</value>
+  </data>
+  <data name="Charts_0.5DayMA" xml:space="preserve">
+    <value>1/2 Day MA</value>
+  </data>
+  <data name="Charts_180Days" xml:space="preserve">
+    <value>180 Days</value>
+  </data>
+  <data name="Charts_1DayMA" xml:space="preserve">
+    <value>1 Day MA</value>
+  </data>
+  <data name="Charts_30Days" xml:space="preserve">
+    <value>30 Days</value>
+  </data>
+  <data name="Charts_3DayMA" xml:space="preserve">
+    <value>3 Day MA</value>
+  </data>
+  <data name="Charts_3Days" xml:space="preserve">
+    <value>3 Days</value>
+  </data>
+  <data name="Charts_60Days" xml:space="preserve">
+    <value>60 Days</value>
+  </data>
+  <data name="Charts_90Days" xml:space="preserve">
+    <value>90 Days</value>
+  </data>
+  <data name="Charts_LastUpdated" xml:space="preserve">
+    <value>Last updated:</value>
+  </data>
+  <data name="Charts_Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="Charts_MoneySupply" xml:space="preserve">
+    <value>MONEY SUPPLY</value>
+  </data>
+  <data name="Charts_PosBlocks" xml:space="preserve">
+    <value>PoS BLOCKS</value>
+  </data>
+  <data name="Charts_PosDifficulty" xml:space="preserve">
+    <value>PoS Difficulty</value>
+  </data>
+  <data name="Charts_PowBlocks" xml:space="preserve">
+    <value>PoW BLOCKS</value>
+  </data>
+  <data name="Charts_PowDifficulty" xml:space="preserve">
+    <value>PoW Difficulty</value>
+  </data>
+  <data name="Charts_PowPosSplitCount" xml:space="preserve">
+    <value>PoS/PoW SPLIT - COUNT</value>
+  </data>
+  <data name="Charts_PowPosSplitPercent" xml:space="preserve">
+    <value>PoS/PoW SPLIT - PERCENT</value>
+  </data>
+  <data name="Charts_ZoomChart" xml:space="preserve">
+    <value>Zoom Chart -&gt; Click or Touch + Drag!</value>
+  </data>
+  <data name="DenomEfficiency_Efficiency" xml:space="preserve">
+    <value>Efficiency</value>
+  </data>
+  <data name="DenomEfficiency_LastUpdated" xml:space="preserve">
+    <value>Last updated:</value>
+  </data>
+  <data name="DenomEfficiency_RewardDistribution" xml:space="preserve">
+    <value>Reward distribution</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot24hr" xml:space="preserve">
+    <value>PoS REWARD SNAPSHOT - 24 Hours</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot3Day" xml:space="preserve">
+    <value>PoS REWARD SNAPSHOT - 3 Days</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot7Day" xml:space="preserve">
+    <value>PoS REWARD SNAPSHOT - 7 Days</value>
+  </data>
+  <data name="DenomEfficiency_SupplyDistribution" xml:space="preserve">
+    <value>Supply distribution</value>
+  </data>
+  <data name="MiningCalc_24hrDiffAvg" xml:space="preserve">
+    <value>24hr diff avg</value>
+  </data>
+  <data name="MiningCalc_BlockReward" xml:space="preserve">
+    <value>Block reward</value>
+  </data>
+  <data name="MiningCalc_BtcValue" xml:space="preserve">
+    <value>BTC value</value>
+  </data>
+  <data name="MiningCalc_Calculate" xml:space="preserve">
+    <value>calculate</value>
+  </data>
+  <data name="MiningCalc_Constants" xml:space="preserve">
+    <value>Constants</value>
+  </data>
+  <data name="MiningCalc_Cost" xml:space="preserve">
+    <value>Cost</value>
+  </data>
+  <data name="MiningCalc_Day" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="MiningCalc_Difficulty" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="MiningCalc_EstimatedRewards" xml:space="preserve">
+    <value>Estimated Rewards</value>
+  </data>
+  <data name="MiningCalc_EstRewards" xml:space="preserve">
+    <value>Est. Rewards</value>
+  </data>
+  <data name="MiningCalc_ExchangeRate" xml:space="preserve">
+    <value>Exchange rate</value>
+  </data>
+  <data name="MiningCalc_Fees" xml:space="preserve">
+    <value>Fees</value>
+  </data>
+  <data name="MiningCalc_Hashrate" xml:space="preserve">
+    <value>Hash rate</value>
+  </data>
+  <data name="MiningCalc_HashRatePerCoin" xml:space="preserve">
+    <value>hash rate per coin</value>
+  </data>
+  <data name="MiningCalc_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="MiningCalc_Month" xml:space="preserve">
+    <value>Month</value>
+  </data>
+  <data name="MiningCalc_PageSubTitle" xml:space="preserve">
+    <value>This calculator is supplied with real reward data to increase accuracy.</value>
+  </data>
+  <data name="MiningCalc_PageTitle" xml:space="preserve">
+    <value>Mining Calculator</value>
+  </data>
+  <data name="MiningCalc_Per" xml:space="preserve">
+    <value>Per</value>
+  </data>
+  <data name="MiningCalc_Power" xml:space="preserve">
+    <value>Power</value>
+  </data>
+  <data name="MiningCalc_PowerCost" xml:space="preserve">
+    <value>Power Cost</value>
+  </data>
+  <data name="MiningCalc_Profit" xml:space="preserve">
+    <value>Profit</value>
+  </data>
+  <data name="MiningCalc_Reset" xml:space="preserve">
+    <value>reset</value>
+  </data>
+  <data name="MiningCalc_RevBtc" xml:space="preserve">
+    <value>Rev. BTC</value>
+  </data>
+  <data name="MiningCalc_RevDollar" xml:space="preserve">
+    <value>Rev. $</value>
+  </data>
+  <data name="MiningCalc_Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="MiningCalc_Year" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="NavMenu_Calculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="NavMenu_Charts" xml:space="preserve">
+    <value>Charts</value>
+  </data>
+  <data name="NavMenu_Distribution" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="NavMenu_MiningCalculator" xml:space="preserve">
+    <value>Mining Calculator</value>
+  </data>
+  <data name="NavMenu_MiningPools" xml:space="preserve">
+    <value>Mining Pools</value>
+  </data>
+  <data name="NavMenu_RealTime" xml:space="preserve">
+    <value>Real Time</value>
+  </data>
+  <data name="NavMenu_Snapshot" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="NavMenu_Staking" xml:space="preserve">
+    <value>Staking</value>
+  </data>
+  <data name="NavMenu_Transactions" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
+  <data name="Pow_30Days" xml:space="preserve">
+    <value>30 Days</value>
+  </data>
+  <data name="Pow_3Days" xml:space="preserve">
+    <value>3 Days</value>
+  </data>
+  <data name="Pow_60Days" xml:space="preserve">
+    <value>60 Days</value>
+  </data>
+  <data name="Pow_90Days" xml:space="preserve">
+    <value>90 Days</value>
+  </data>
+  <data name="Pow_CurrentBlock" xml:space="preserve">
+    <value>CURRENT BLOCK</value>
+  </data>
+  <data name="Pow_GlobalHash" xml:space="preserve">
+    <value>GLOBAL HASH</value>
+  </data>
+  <data name="Pow_LastUpdated" xml:space="preserve">
+    <value>Last updated:</value>
+  </data>
+  <data name="Pow_MiningPools" xml:space="preserve">
+    <value>Mining Pools</value>
+  </data>
+  <data name="Pow_Network" xml:space="preserve">
+    <value>Network</value>
+  </data>
+  <data name="Pow_PoolHash" xml:space="preserve">
+    <value>POOL HASH</value>
+  </data>
+  <data name="Pow_PoolWorkers" xml:space="preserve">
+    <value>POOL WORKERS</value>
+  </data>
+  <data name="Pow_PowDiff" xml:space="preserve">
+    <value>PoW DIFF</value>
+  </data>
+  <data name="Pow_PowDifficulty" xml:space="preserve">
+    <value>PoW DIFFICULTY</value>
+  </data>
+  <data name="Pow_UnknownHash" xml:space="preserve">
+    <value>UNKNOWN HASH</value>
+  </data>
+  <data name="Pow_Workers" xml:space="preserve">
+    <value>workers</value>
+  </data>
+  <data name="Pow_ZoomChart" xml:space="preserve">
+    <value>Zoom Chart -&gt; Click or Touch + Drag!</value>
+  </data>
+  <data name="RealTime_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="RealTime_BuiltBy" xml:space="preserve">
+    <value>built by</value>
+  </data>
+  <data name="RealTime_Last24Hours" xml:space="preserve">
+    <value>Last 24 Hours</value>
+  </data>
+  <data name="RealTime_LastBlock" xml:space="preserve">
+    <value>LAST BLOCK</value>
+  </data>
+  <data name="RealTime_LookingForMore" xml:space="preserve">
+    <value>Looking for more... Check out the Charts page!</value>
+  </data>
+  <data name="RealTime_MainHeading" xml:space="preserve">
+    <value>Popular Stats</value>
+  </data>
+  <data name="RealTime_MainSubHeading" xml:space="preserve">
+    <value>real-time data</value>
+  </data>
+  <data name="RealTime_MarketPrice" xml:space="preserve">
+    <value>Market Price</value>
+  </data>
+  <data name="RealTime_Other" xml:space="preserve">
+    <value>other</value>
+  </data>
+  <data name="RealTime_PosBlocks" xml:space="preserve">
+    <value>PoS BLOCKS</value>
+  </data>
+  <data name="RealTime_PosDiff" xml:space="preserve">
+    <value>PoS DIFF</value>
+  </data>
+  <data name="RealTime_PowBlocks" xml:space="preserve">
+    <value>PoW BLOCKS</value>
+  </data>
+  <data name="RealTime_PowDiff" xml:space="preserve">
+    <value>PoW DIFF</value>
+  </data>
+  <data name="RealTime_TotalAllTime" xml:space="preserve">
+    <value>Total All-Time</value>
+  </data>
+  <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
+    <value>Veil Budget Excess</value>
+  </data>
+  <data name="RealTime_VeilFoundation" xml:space="preserve">
+    <value>Veil Foundation</value>
+  </data>
+  <data name="RealTime_VeilSupply" xml:space="preserve">
+    <value>VEIL SUPPLY</value>
+  </data>
+  <data name="RealTime_Zerocoin" xml:space="preserve">
+    <value>zerocoin</value>
+  </data>
+  <data name="RealTime_ZeroCoinSupply" xml:space="preserve">
+    <value>ZEROCOIN SUPPLY</value>
+  </data>
+  <data name="StakeDistribution_1DayMA" xml:space="preserve">
+    <value>1 Day MA</value>
+  </data>
+  <data name="StakeDistribution_3DayMA" xml:space="preserve">
+    <value>3 Day MA</value>
+  </data>
+  <data name="StakeDistribution_7DayMA" xml:space="preserve">
+    <value>7 Day MA</value>
+  </data>
+  <data name="StakeDistribution_CalculationIncorrect" xml:space="preserve">
+    <value>If you believe these calculations are incorrect please let me know!</value>
+  </data>
+  <data name="StakeDistribution_ChartTitle" xml:space="preserve">
+    <value>PoS REWARD DISTRIBUTION - 3 Days</value>
+  </data>
+  <data name="StakeDistribution_DenomConversionFn" xml:space="preserve">
+    <value>Denom Conversion Rate = Number of Blocks Staked by Denom / Number of PoS Blocks</value>
+  </data>
+  <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
+    <value>Denom Conversion Rate</value>
+  </data>
+  <data name="StakeDistribution_DenomConversionRate1" xml:space="preserve">
+    <value>Denom Conversion Rate</value>
+  </data>
+  <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
+    <value>Denom Efficiency</value>
+  </data>
+  <data name="StakeDistribution_DenomEfficiencyFn" xml:space="preserve">
+    <value>Denom Efficiency = (Denom Conversion Rate / Denom Percentage Supply) * 100</value>
+  </data>
+  <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
+    <value>Denom Percentage Supply</value>
+  </data>
+  <data name="StakeDistribution_DenomPercentageSupply1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StakeDistribution_DenomPercentFn" xml:space="preserve">
+    <value>Denom Conversion Rate = Number of Blocks Staked by Denom / Number of PoS Blocks</value>
+  </data>
+  <data name="StakeDistribution_DenomSupply" xml:space="preserve">
+    <value>Denom Supply</value>
+  </data>
+  <data name="StakeDistribution_DenomSupplyFn" xml:space="preserve">
+    <value>Denom Supply = Average denom supply over the last X blocks</value>
+  </data>
+  <data name="StakeDistribution_DenomToggle" xml:space="preserve">
+    <value>Click the denom to toggle the series</value>
+  </data>
+  <data name="StakeDistribution_EfficiencyCalculation" xml:space="preserve">
+    <value>EFFICIENCY CALCULATION</value>
+  </data>
+  <data name="StakeDistribution_HowCalculated" xml:space="preserve">
+    <value>How is this calculated?</value>
+  </data>
+  <data name="StakeDistribution_LastUpdated" xml:space="preserve">
+    <value>Last updated:</value>
+  </data>
+  <data name="StakeDistribution_MA1Day" xml:space="preserve">
+    <value>1 Day = 1440 Blocks</value>
+  </data>
+  <data name="StakeDistribution_MA3Day" xml:space="preserve">
+    <value>3 Day = 4320 Blocks</value>
+  </data>
+  <data name="StakeDistribution_MA7Day" xml:space="preserve">
+    <value>7 Day = 10080 Blocks</value>
+  </data>
+  <data name="StakeDistribution_MovingAverage" xml:space="preserve">
+    <value>MOVING AVERAGE - X BLOCKS</value>
+  </data>
+  <data name="StakeDistribution_NumberBlocksStakedDenom" xml:space="preserve">
+    <value>Number of Blocks Staked by Denom</value>
+  </data>
+  <data name="StakeDistribution_NumberOfPosFn" xml:space="preserve">
+    <value>Number of PoS Blocks = Count of PoS over the last X blocks</value>
+  </data>
+  <data name="StakeDistribution_NumberOfStakedFn" xml:space="preserve">
+    <value>Number of Blocks Staked by Denom = Count of block the selected denom staked over the last X blocks</value>
+  </data>
+  <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
+    <value>Number of PoS Blocks</value>
+  </data>
+  <data name="StakeDistribution_RewardCalculation" xml:space="preserve">
+    <value>REWARD CALCULATION</value>
+  </data>
+  <data name="StakeDistribution_SupplyCalculation" xml:space="preserve">
+    <value>SUPPLY CALCULATION</value>
+  </data>
+  <data name="StakeDistribution_TotalSupply" xml:space="preserve">
+    <value>Total Supply</value>
+  </data>
+  <data name="StakeDistribution_TotalSupplyFn" xml:space="preserve">
+    <value>Total Supply = Average zerocoin supply over the last X blocks</value>
+  </data>
+  <data name="StakeRoi_Daily" xml:space="preserve">
+    <value>Daily</value>
+  </data>
+  <data name="StakeRoi_DailyPosBlocks" xml:space="preserve">
+    <value>Daily PoS blocks</value>
+  </data>
+  <data name="StakeRoi_LastUpdated" xml:space="preserve">
+    <value>Last updated:</value>
+  </data>
+  <data name="StakeRoi_MainHeading" xml:space="preserve">
+    <value>PoS reward frequency estimation</value>
+  </data>
+  <data name="StakeRoi_Monthly" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="StakeRoi_MoreInformation" xml:space="preserve">
+    <value>More information</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions" xml:space="preserve">
+    <value>Stake ROI assumptions</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions1" xml:space="preserve">
+    <value>High-end consumer CPU</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions2" xml:space="preserve">
+    <value>SSD or NVMe storage drive</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions3" xml:space="preserve">
+    <value>Significant available RAM</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions4" xml:space="preserve">
+    <value>High-speed internet</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions5" xml:space="preserve">
+    <value>Very low latency</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions6" xml:space="preserve">
+    <value>Wallet open, unlocked, and staking active 24/7</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions7" xml:space="preserve">
+    <value>In the end luck is a factor!</value>
+  </data>
+  <data name="StakeRoi_TotalZerocoins" xml:space="preserve">
+    <value>Total zerocoins</value>
+  </data>
+  <data name="StakeRoi_Weekly" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="StakeRoi_WhichDenomsBest" xml:space="preserve">
+    <value>Which denominations are best? Check here</value>
+  </data>
+  <data name="Transactions_180Days" xml:space="preserve">
+    <value>180 Days</value>
+  </data>
+  <data name="Transactions_30Days" xml:space="preserve">
+    <value>30 Days</value>
+  </data>
+  <data name="Transactions_60Days" xml:space="preserve">
+    <value>60 Days</value>
+  </data>
+  <data name="Transactions_7Days" xml:space="preserve">
+    <value>7 Days</value>
+  </data>
+  <data name="Transactions_90Days" xml:space="preserve">
+    <value>90 Days</value>
+  </data>
+  <data name="Transactions_BlockTransactions" xml:space="preserve">
+    <value>BLOCK TRANSACTIONS</value>
+  </data>
+  <data name="Transactions_PageSubTitle" xml:space="preserve">
+    <value>Last updated:</value>
+  </data>
+  <data name="Transactions_PageTitle" xml:space="preserve">
+    <value>DAILY TRANSACTIONS</value>
+  </data>
+</root>

@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Details" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="About_DetailsText1" xml:space="preserve">
+    <value>의 승인하에 모든 이미지들을 사용하였습니다</value>
+  </data>
+  <data name="About_DetailsText2" xml:space="preserve">
+    <value>가격 정보는 CoinGecko에서 제공받았음.</value>
+  </data>
+  <data name="About_DetailsText3" xml:space="preserve">
+    <value>풀 정보는 개별 풀의 API에서 제공받았음.</value>
+  </data>
+  <data name="About_Enjoy" xml:space="preserve">
+    <value>감사합니다!</value>
+  </data>
+  <data name="About_Suggestion" xml:space="preserve">
+    <value>기타 제안사항?</value>
+  </data>
+  <data name="About_SuggestionText" xml:space="preserve">
+    <value>제안사항들이 있으시면 으로 문의주십시요</value>
+  </data>
+  <data name="About_Why" xml:space="preserve">
+    <value>왜?</value>
+  </data>
+  <data name="About_WhyReason" xml:space="preserve">
+    <value>이 웹사이트는 베일 네트워크의 정보를 그래프화하여 보기 쉽게 제공드리기 위해 만들어졌습니다.</value>
+  </data>
+  <data name="Charts_0.5DayMA" xml:space="preserve">
+    <value>1/2일 MA</value>
+  </data>
+  <data name="Charts_180Days" xml:space="preserve">
+    <value>180일</value>
+  </data>
+  <data name="Charts_1DayMA" xml:space="preserve">
+    <value>1일 MA</value>
+  </data>
+  <data name="Charts_30Days" xml:space="preserve">
+    <value>30일</value>
+  </data>
+  <data name="Charts_3DayMA" xml:space="preserve">
+    <value>3일 MA</value>
+  </data>
+  <data name="Charts_3Days" xml:space="preserve">
+    <value>3일</value>
+  </data>
+  <data name="Charts_60Days" xml:space="preserve">
+    <value>60일</value>
+  </data>
+  <data name="Charts_90Days" xml:space="preserve">
+    <value>90일</value>
+  </data>
+  <data name="Charts_LastUpdated" xml:space="preserve">
+    <value>최종 업데이트:</value>
+  </data>
+  <data name="Charts_Live" xml:space="preserve">
+    <value>실시간</value>
+  </data>
+  <data name="Charts_MoneySupply" xml:space="preserve">
+    <value>공급량</value>
+  </data>
+  <data name="Charts_PosBlocks" xml:space="preserve">
+    <value>PoS 블럭</value>
+  </data>
+  <data name="Charts_PosDifficulty" xml:space="preserve">
+    <value>PoS 난위도</value>
+  </data>
+  <data name="Charts_PowBlocks" xml:space="preserve">
+    <value>PoW 블럭</value>
+  </data>
+  <data name="Charts_PowDifficulty" xml:space="preserve">
+    <value>PoW 난위도</value>
+  </data>
+  <data name="Charts_PowPosSplitCount" xml:space="preserve">
+    <value>PoS/PoW 분리 : 갯수</value>
+  </data>
+  <data name="Charts_PowPosSplitPercent" xml:space="preserve">
+    <value>PoS/PoW 분리 : %</value>
+  </data>
+  <data name="Charts_ZoomChart" xml:space="preserve">
+    <value>줌 &gt; 클릭 또는 터치 드레그</value>
+  </data>
+  <data name="DenomEfficiency_Efficiency" xml:space="preserve">
+    <value>효율</value>
+  </data>
+  <data name="DenomEfficiency_LastUpdated" xml:space="preserve">
+    <value>최종 업데이트:</value>
+  </data>
+  <data name="DenomEfficiency_RewardDistribution" xml:space="preserve">
+    <value>보상 수량</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot24hr" xml:space="preserve">
+    <value>PoS 보상 스냅샷 - 24시간</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot3Day" xml:space="preserve">
+    <value>PoS 보상 스냅샷 - 3일</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot7Day" xml:space="preserve">
+    <value>PoS 보상 스냅샷 - 7일</value>
+  </data>
+  <data name="DenomEfficiency_SupplyDistribution" xml:space="preserve">
+    <value>스테이킹 수량</value>
+  </data>
+  <data name="MiningCalc_24hrDiffAvg" xml:space="preserve">
+    <value>24시간 평균 난위도</value>
+  </data>
+  <data name="MiningCalc_BlockReward" xml:space="preserve">
+    <value>블럭 보상</value>
+  </data>
+  <data name="MiningCalc_BtcValue" xml:space="preserve">
+    <value>BTC 가격</value>
+  </data>
+  <data name="MiningCalc_Calculate" xml:space="preserve">
+    <value>계산</value>
+  </data>
+  <data name="MiningCalc_Constants" xml:space="preserve">
+    <value>전제조건</value>
+  </data>
+  <data name="MiningCalc_Cost" xml:space="preserve">
+    <value>마이닝 투자비</value>
+  </data>
+  <data name="MiningCalc_Day" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="MiningCalc_Difficulty" xml:space="preserve">
+    <value>난위도</value>
+  </data>
+  <data name="MiningCalc_EstimatedRewards" xml:space="preserve">
+    <value>추정 보상</value>
+  </data>
+  <data name="MiningCalc_EstRewards" xml:space="preserve">
+    <value>추정 보상</value>
+  </data>
+  <data name="MiningCalc_ExchangeRate" xml:space="preserve">
+    <value>가격</value>
+  </data>
+  <data name="MiningCalc_Fees" xml:space="preserve">
+    <value>수수료</value>
+  </data>
+  <data name="MiningCalc_Hashrate" xml:space="preserve">
+    <value>해쉬</value>
+  </data>
+  <data name="MiningCalc_HashRatePerCoin" xml:space="preserve">
+    <value>코인당 해쉬</value>
+  </data>
+  <data name="MiningCalc_Hour" xml:space="preserve">
+    <value>시간</value>
+  </data>
+  <data name="MiningCalc_Month" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="MiningCalc_PageSubTitle" xml:space="preserve">
+    <value>본 계산기는 실 보상 데이터를 사용하여 계산 정확도를 높였습니다.</value>
+  </data>
+  <data name="MiningCalc_PageTitle" xml:space="preserve">
+    <value>마이닝 계산기</value>
+  </data>
+  <data name="MiningCalc_Per" xml:space="preserve">
+    <value>기준</value>
+  </data>
+  <data name="MiningCalc_Power" xml:space="preserve">
+    <value>전기 사용량</value>
+  </data>
+  <data name="MiningCalc_PowerCost" xml:space="preserve">
+    <value>전기세</value>
+  </data>
+  <data name="MiningCalc_Profit" xml:space="preserve">
+    <value>이익</value>
+  </data>
+  <data name="MiningCalc_Reset" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="MiningCalc_RevBtc" xml:space="preserve">
+    <value>BTC 환산</value>
+  </data>
+  <data name="MiningCalc_RevDollar" xml:space="preserve">
+    <value>$ 환산</value>
+  </data>
+  <data name="MiningCalc_Week" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="MiningCalc_Year" xml:space="preserve">
+    <value>년</value>
+  </data>
+  <data name="NavMenu_Charts" xml:space="preserve">
+    <value>차트</value>
+  </data>
+  <data name="NavMenu_MiningCalculator" xml:space="preserve">
+    <value>마이닝 계산기</value>
+  </data>
+  <data name="NavMenu_MiningPools" xml:space="preserve">
+    <value>마이닝풀</value>
+  </data>
+  <data name="NavMenu_RealTime" xml:space="preserve">
+    <value>실시간</value>
+  </data>
+  <data name="NavMenu_Staking" xml:space="preserve">
+    <value>스테이킹</value>
+  </data>
+  <data name="NavMenu_Transactions" xml:space="preserve">
+    <value>전송내역</value>
+  </data>
+  <data name="Pow_30Days" xml:space="preserve">
+    <value>30일</value>
+  </data>
+  <data name="Pow_3Days" xml:space="preserve">
+    <value>3일</value>
+  </data>
+  <data name="Pow_60Days" xml:space="preserve">
+    <value>60일</value>
+  </data>
+  <data name="Pow_90Days" xml:space="preserve">
+    <value>90일</value>
+  </data>
+  <data name="Pow_CurrentBlock" xml:space="preserve">
+    <value>최신 블럭</value>
+  </data>
+  <data name="Pow_GlobalHash" xml:space="preserve">
+    <value>총 해쉬</value>
+  </data>
+  <data name="Pow_LastUpdated" xml:space="preserve">
+    <value>최종 업데이트:</value>
+  </data>
+  <data name="Pow_MiningPools" xml:space="preserve">
+    <value>마이닝 풀</value>
+  </data>
+  <data name="Pow_Network" xml:space="preserve">
+    <value>네트워크</value>
+  </data>
+  <data name="Pow_PoolHash" xml:space="preserve">
+    <value>풀 해쉬</value>
+  </data>
+  <data name="Pow_PoolWorkers" xml:space="preserve">
+    <value>풀 일꾼</value>
+  </data>
+  <data name="Pow_PowDiff" xml:space="preserve">
+    <value>PoW 난위도</value>
+  </data>
+  <data name="Pow_PowDifficulty" xml:space="preserve">
+    <value>PoW 난위도</value>
+  </data>
+  <data name="Pow_UnknownHash" xml:space="preserve">
+    <value>기타 해쉬</value>
+  </data>
+  <data name="Pow_Workers" xml:space="preserve">
+    <value>일꾼</value>
+  </data>
+  <data name="Pow_ZoomChart" xml:space="preserve">
+    <value>줌 &gt; 클릭 또는 터치 드레그</value>
+  </data>
+  <data name="RealTime_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="RealTime_BuiltBy" xml:space="preserve">
+    <value>codeofalltrades에 의해 개발</value>
+  </data>
+  <data name="RealTime_Last24Hours" xml:space="preserve">
+    <value>Last 24 Hours</value>
+  </data>
+  <data name="RealTime_LastBlock" xml:space="preserve">
+    <value>최신 블럭</value>
+  </data>
+  <data name="RealTime_LookingForMore" xml:space="preserve">
+    <value>기타 정보는 차트 페이지를 참조하세요</value>
+  </data>
+  <data name="RealTime_MainHeading" xml:space="preserve">
+    <value>가장 많이보는 내역</value>
+  </data>
+  <data name="RealTime_MainSubHeading" xml:space="preserve">
+    <value>실시간 데이타</value>
+  </data>
+  <data name="RealTime_MarketPrice" xml:space="preserve">
+    <value>시장 가격</value>
+  </data>
+  <data name="RealTime_Other" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="RealTime_PosBlocks" xml:space="preserve">
+    <value>PoS 블럭</value>
+  </data>
+  <data name="RealTime_PosDiff" xml:space="preserve">
+    <value>PoS 난위도</value>
+  </data>
+  <data name="RealTime_PowBlocks" xml:space="preserve">
+    <value>PoW 블럭</value>
+  </data>
+  <data name="RealTime_PowDiff" xml:space="preserve">
+    <value>PoW 난위도</value>
+  </data>
+  <data name="RealTime_TotalAllTime" xml:space="preserve">
+    <value>Total All-Time</value>
+  </data>
+  <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
+    <value>베일 예산</value>
+  </data>
+  <data name="RealTime_VeilFoundation" xml:space="preserve">
+    <value>베일 재단</value>
+  </data>
+  <data name="RealTime_VeilSupply" xml:space="preserve">
+    <value>베일 발행량</value>
+  </data>
+  <data name="RealTime_Zerocoin" xml:space="preserve">
+    <value>제로코인</value>
+  </data>
+  <data name="RealTime_ZeroCoinSupply" xml:space="preserve">
+    <value>제로코인 생성량</value>
+  </data>
+  <data name="StakeDistribution_1DayMA" xml:space="preserve">
+    <value>1일 MA</value>
+  </data>
+  <data name="StakeDistribution_3DayMA" xml:space="preserve">
+    <value>3일 MA</value>
+  </data>
+  <data name="StakeDistribution_7DayMA" xml:space="preserve">
+    <value>7일 MA</value>
+  </data>
+  <data name="StakeDistribution_CalculationIncorrect" xml:space="preserve">
+    <value>계산법에 대한 문의가 있으시면 연락 주시기 바랍니다.</value>
+  </data>
+  <data name="StakeDistribution_ChartTitle" xml:space="preserve">
+    <value>PoS 보상 내역 - 3일 주기</value>
+  </data>
+  <data name="StakeDistribution_DenomConversionFn" xml:space="preserve">
+    <value>묶음 변환율 =</value>
+  </data>
+  <data name="StakeDistribution_DenomEfficiencyFn" xml:space="preserve">
+    <value>묶음</value>
+  </data>
+  <data name="StakeDistribution_DenomPercentFn" xml:space="preserve">
+    <value>묶음 % 공급량 = 묶음 공급량 / 총 공급량</value>
+  </data>
+  <data name="StakeDistribution_DenomSupplyFn" xml:space="preserve">
+    <value>묶음 공급량 = 최근 X 블럭에 대한 묶음의 평균</value>
+  </data>
+  <data name="StakeDistribution_DenomToggle" xml:space="preserve">
+    <value>묶음을 클릭하시면 토글하실 수 있습니다.</value>
+  </data>
+  <data name="StakeDistribution_EfficiencyCalculation" xml:space="preserve">
+    <value>효율성 계산법</value>
+  </data>
+  <data name="StakeDistribution_HowCalculated" xml:space="preserve">
+    <value>계산방법</value>
+  </data>
+  <data name="StakeDistribution_LastUpdated" xml:space="preserve">
+    <value>최종 업데이트:</value>
+  </data>
+  <data name="StakeDistribution_MA1Day" xml:space="preserve">
+    <value>1일 = 1440블럭</value>
+  </data>
+  <data name="StakeDistribution_MA3Day" xml:space="preserve">
+    <value>3일 = 4320 블럭</value>
+  </data>
+  <data name="StakeDistribution_MA7Day" xml:space="preserve">
+    <value>7일 = 10080 블럭</value>
+  </data>
+  <data name="StakeDistribution_MovingAverage" xml:space="preserve">
+    <value>MA - X 블럭</value>
+  </data>
+  <data name="StakeDistribution_NumberOfPosFn" xml:space="preserve">
+    <value>PoS 블럭 수량 = 최근 X 블럭에 대한 PoS 블럭 수량</value>
+  </data>
+  <data name="StakeDistribution_NumberOfStakedFn" xml:space="preserve">
+    <value>해당 묶음의 블럭 스테이킹 = 최근 X 블럭에 대한 해당 묶음의 스테이킹 성공률</value>
+  </data>
+  <data name="StakeDistribution_RewardCalculation" xml:space="preserve">
+    <value>보상 계산법</value>
+  </data>
+  <data name="StakeDistribution_SupplyCalculation" xml:space="preserve">
+    <value>공급량 계산법</value>
+  </data>
+  <data name="StakeDistribution_TotalSupplyFn" xml:space="preserve">
+    <value>총 공급량 = 최근 X 블럭에 대한 평균 제로코인 공급량</value>
+  </data>
+  <data name="StakeRoi_Daily" xml:space="preserve">
+    <value>일</value>
+  </data>
+  <data name="StakeRoi_DailyPosBlocks" xml:space="preserve">
+    <value>일일 PoS 블럭들</value>
+  </data>
+  <data name="StakeRoi_LastUpdated" xml:space="preserve">
+    <value>최종 업데이트:</value>
+  </data>
+  <data name="StakeRoi_MainHeading" xml:space="preserve">
+    <value>PoS 보상 예상 주기</value>
+  </data>
+  <data name="StakeRoi_Monthly" xml:space="preserve">
+    <value>월</value>
+  </data>
+  <data name="StakeRoi_MoreInformation" xml:space="preserve">
+    <value>기타 정보</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions" xml:space="preserve">
+    <value>스테이킹 ROI 추정</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions1" xml:space="preserve">
+    <value>퍼포먼스 CPU</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions2" xml:space="preserve">
+    <value>SSD 또는 NVMe 하드</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions3" xml:space="preserve">
+    <value>충분한 RAM</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions4" xml:space="preserve">
+    <value>빠른 인터넷 속도</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions5" xml:space="preserve">
+    <value>지연시간 최소</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions6" xml:space="preserve">
+    <value>지갑이 실행되어 잠금이 해제 되었고, 24/7시간 스테이킹을 한다는 가정</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions7" xml:space="preserve">
+    <value>운도 필요합니다!</value>
+  </data>
+  <data name="StakeRoi_TotalZerocoins" xml:space="preserve">
+    <value>총 제로코인</value>
+  </data>
+  <data name="StakeRoi_Weekly" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="StakeRoi_WhichDenomsBest" xml:space="preserve">
+    <value>어떤 묶음이 가장 효율적일지? 확인해보세요</value>
+  </data>
+  <data name="Transactions_180Days" xml:space="preserve">
+    <value>180일</value>
+  </data>
+  <data name="Transactions_30Days" xml:space="preserve">
+    <value>30일</value>
+  </data>
+  <data name="Transactions_60Days" xml:space="preserve">
+    <value>60일</value>
+  </data>
+  <data name="Transactions_7Days" xml:space="preserve">
+    <value>7 Days</value>
+  </data>
+  <data name="Transactions_90Days" xml:space="preserve">
+    <value>90일</value>
+  </data>
+  <data name="Transactions_BlockTransactions" xml:space="preserve">
+    <value>블럭 내역</value>
+  </data>
+  <data name="Transactions_PageSubTitle" xml:space="preserve">
+    <value> 최종 업데이트:</value>
+  </data>
+  <data name="Transactions_PageTitle" xml:space="preserve">
+    <value>일 거래내역</value>
+  </data>
+</root>

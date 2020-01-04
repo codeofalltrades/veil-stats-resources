@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About_Details" xml:space="preserve">
+    <value>更多细节</value>
+  </data>
+  <data name="About_DetailsText1" xml:space="preserve">
+    <value>所有图片已经过 授权使用</value>
+  </data>
+  <data name="About_DetailsText2" xml:space="preserve">
+    <value>价格信息由CoinGecko提供</value>
+  </data>
+  <data name="About_DetailsText3" xml:space="preserve">
+    <value>矿池信息由各矿池的API提供</value>
+  </data>
+  <data name="About_Enjoy" xml:space="preserve">
+    <value>祝您使用愉快！</value>
+  </data>
+  <data name="About_Suggestion" xml:space="preserve">
+    <value>如有建议</value>
+  </data>
+  <data name="About_SuggestionText" xml:space="preserve">
+    <value>请发送至</value>
+  </data>
+  <data name="About_Why" xml:space="preserve">
+    <value>用途？</value>
+  </data>
+  <data name="About_WhyReason" xml:space="preserve">
+    <value>此网站用于提供Veil网络的图形化信息</value>
+  </data>
+  <data name="Charts_0.5DayMA" xml:space="preserve">
+    <value>12小时MA</value>
+  </data>
+  <data name="Charts_180Days" xml:space="preserve">
+    <value>180日</value>
+  </data>
+  <data name="Charts_1DayMA" xml:space="preserve">
+    <value>1日MA</value>
+  </data>
+  <data name="Charts_30Days" xml:space="preserve">
+    <value>30日</value>
+  </data>
+  <data name="Charts_3DayMA" xml:space="preserve">
+    <value>3日MA</value>
+  </data>
+  <data name="Charts_3Days" xml:space="preserve">
+    <value>3日</value>
+  </data>
+  <data name="Charts_60Days" xml:space="preserve">
+    <value>60日</value>
+  </data>
+  <data name="Charts_90Days" xml:space="preserve">
+    <value>90日</value>
+  </data>
+  <data name="Charts_LastUpdated" xml:space="preserve">
+    <value>更新于:</value>
+  </data>
+  <data name="Charts_Live" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="Charts_MoneySupply" xml:space="preserve">
+    <value>货币供应</value>
+  </data>
+  <data name="Charts_PosBlocks" xml:space="preserve">
+    <value>PoS区块</value>
+  </data>
+  <data name="Charts_PosDifficulty" xml:space="preserve">
+    <value>PoS难度</value>
+  </data>
+  <data name="Charts_PowBlocks" xml:space="preserve">
+    <value>PoW区块</value>
+  </data>
+  <data name="Charts_PowDifficulty" xml:space="preserve">
+    <value>PoW难度</value>
+  </data>
+  <data name="Charts_PowPosSplitCount" xml:space="preserve">
+    <value>PoS/PoW拆分——数量</value>
+  </data>
+  <data name="Charts_PowPosSplitPercent" xml:space="preserve">
+    <value>PoS/PoW拆分——比例</value>
+  </data>
+  <data name="Charts_ZoomChart" xml:space="preserve">
+    <value>缩放图表-&gt;点击或按住+拖动！</value>
+  </data>
+  <data name="DenomEfficiency_Efficiency" xml:space="preserve">
+    <value>效率</value>
+  </data>
+  <data name="DenomEfficiency_LastUpdated" xml:space="preserve">
+    <value>更新于:</value>
+  </data>
+  <data name="DenomEfficiency_RewardDistribution" xml:space="preserve">
+    <value>奖励分配</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot24hr" xml:space="preserve">
+    <value>PoS奖励快照——24小时</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot3Day" xml:space="preserve">
+    <value>PoS奖励快照——3日</value>
+  </data>
+  <data name="DenomEfficiency_RewardSnapShot7Day" xml:space="preserve">
+    <value>PoS奖励快照——7日</value>
+  </data>
+  <data name="DenomEfficiency_SupplyDistribution" xml:space="preserve">
+    <value>Supply distribution</value>
+  </data>
+  <data name="MiningCalc_24hrDiffAvg" xml:space="preserve">
+    <value>24小时平均难度</value>
+  </data>
+  <data name="MiningCalc_BlockReward" xml:space="preserve">
+    <value>区块奖励</value>
+  </data>
+  <data name="MiningCalc_BtcValue" xml:space="preserve">
+    <value>BTC价值</value>
+  </data>
+  <data name="MiningCalc_Calculate" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="MiningCalc_Constants" xml:space="preserve">
+    <value>常数</value>
+  </data>
+  <data name="MiningCalc_Cost" xml:space="preserve">
+    <value>成本</value>
+  </data>
+  <data name="MiningCalc_Day" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="MiningCalc_Difficulty" xml:space="preserve">
+    <value>难度</value>
+  </data>
+  <data name="MiningCalc_EstimatedRewards" xml:space="preserve">
+    <value>预估奖励</value>
+  </data>
+  <data name="MiningCalc_EstRewards" xml:space="preserve">
+    <value>预估奖励</value>
+  </data>
+  <data name="MiningCalc_ExchangeRate" xml:space="preserve">
+    <value>汇率</value>
+  </data>
+  <data name="MiningCalc_Fees" xml:space="preserve">
+    <value>费用</value>
+  </data>
+  <data name="MiningCalc_Hashrate" xml:space="preserve">
+    <value>Hash rate</value>
+  </data>
+  <data name="MiningCalc_HashRatePerCoin" xml:space="preserve">
+    <value>每个币的哈希率</value>
+  </data>
+  <data name="MiningCalc_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+  <data name="MiningCalc_Month" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="MiningCalc_PageSubTitle" xml:space="preserve">
+    <value>该计算器使用了真实奖励数据以提高准确性。</value>
+  </data>
+  <data name="MiningCalc_PageTitle" xml:space="preserve">
+    <value>挖矿计算器</value>
+  </data>
+  <data name="MiningCalc_Per" xml:space="preserve">
+    <value>每</value>
+  </data>
+  <data name="MiningCalc_Power" xml:space="preserve">
+    <value>功率</value>
+  </data>
+  <data name="MiningCalc_PowerCost" xml:space="preserve">
+    <value>电力支出</value>
+  </data>
+  <data name="MiningCalc_Profit" xml:space="preserve">
+    <value>利润</value>
+  </data>
+  <data name="MiningCalc_Reset" xml:space="preserve">
+    <value>重设</value>
+  </data>
+  <data name="MiningCalc_RevBtc" xml:space="preserve">
+    <value>ReBTC估值
+BTC估值</value>
+  </data>
+  <data name="MiningCalc_RevDollar" xml:space="preserve">
+    <value>美元估值</value>
+  </data>
+  <data name="MiningCalc_Week" xml:space="preserve">
+    <value>周</value>
+  </data>
+  <data name="MiningCalc_Year" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="NavMenu_Charts" xml:space="preserve">
+    <value>"
+图表"</value>
+  </data>
+  <data name="NavMenu_MiningCalculator" xml:space="preserve">
+    <value>挖矿计算器</value>
+  </data>
+  <data name="NavMenu_MiningPools" xml:space="preserve">
+    <value>矿池</value>
+  </data>
+  <data name="NavMenu_RealTime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="NavMenu_Staking" xml:space="preserve">
+    <value>权益增值</value>
+  </data>
+  <data name="NavMenu_Transactions" xml:space="preserve">
+    <value>交易</value>
+  </data>
+  <data name="Pow_30Days" xml:space="preserve">
+    <value>30日</value>
+  </data>
+  <data name="Pow_3Days" xml:space="preserve">
+    <value>3日</value>
+  </data>
+  <data name="Pow_60Days" xml:space="preserve">
+    <value>60日</value>
+  </data>
+  <data name="Pow_90Days" xml:space="preserve">
+    <value>90日</value>
+  </data>
+  <data name="Pow_CurrentBlock" xml:space="preserve">
+    <value>当前区块</value>
+  </data>
+  <data name="Pow_GlobalHash" xml:space="preserve">
+    <value>GLOBAL HASH</value>
+  </data>
+  <data name="Pow_LastUpdated" xml:space="preserve">
+    <value>更新于:</value>
+  </data>
+  <data name="Pow_MiningPools" xml:space="preserve">
+    <value>矿池</value>
+  </data>
+  <data name="Pow_Network" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="Pow_PoolHash" xml:space="preserve">
+    <value>矿池哈希</value>
+  </data>
+  <data name="Pow_PoolWorkers" xml:space="preserve">
+    <value>矿池工人</value>
+  </data>
+  <data name="Pow_PowDiff" xml:space="preserve">
+    <value>PoW难度</value>
+  </data>
+  <data name="Pow_PowDifficulty" xml:space="preserve">
+    <value>PoW难度</value>
+  </data>
+  <data name="Pow_UnknownHash" xml:space="preserve">
+    <value>UNKNOWN HASH</value>
+  </data>
+  <data name="Pow_Workers" xml:space="preserve">
+    <value>工人</value>
+  </data>
+  <data name="Pow_ZoomChart" xml:space="preserve">
+    <value>缩放窗口-&gt;点击或按住+拖动！</value>
+  </data>
+  <data name="RealTime_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="RealTime_BuiltBy" xml:space="preserve">
+    <value>由codeofalltrades创建</value>
+  </data>
+  <data name="RealTime_Last24Hours" xml:space="preserve">
+    <value>Last 24 Hours</value>
+  </data>
+  <data name="RealTime_LastBlock" xml:space="preserve">
+    <value>最新区块</value>
+  </data>
+  <data name="RealTime_LookingForMore" xml:space="preserve">
+    <value>查询更多信息……请参见图表页面！</value>
+  </data>
+  <data name="RealTime_MainHeading" xml:space="preserve">
+    <value>热门数据</value>
+  </data>
+  <data name="RealTime_MainSubHeading" xml:space="preserve">
+    <value>实时数据</value>
+  </data>
+  <data name="RealTime_MarketPrice" xml:space="preserve">
+    <value>市场价格</value>
+  </data>
+  <data name="RealTime_Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="RealTime_PosBlocks" xml:space="preserve">
+    <value>PoS区块</value>
+  </data>
+  <data name="RealTime_PosDiff" xml:space="preserve">
+    <value>PoS难度</value>
+  </data>
+  <data name="RealTime_PowBlocks" xml:space="preserve">
+    <value>PoW区块</value>
+  </data>
+  <data name="RealTime_PowDiff" xml:space="preserve">
+    <value>PoW难度</value>
+  </data>
+  <data name="RealTime_TotalAllTime" xml:space="preserve">
+    <value>Total All-Time</value>
+  </data>
+  <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
+    <value>Veil预算金</value>
+  </data>
+  <data name="RealTime_VeilFoundation" xml:space="preserve">
+    <value>Veil基金会</value>
+  </data>
+  <data name="RealTime_VeilSupply" xml:space="preserve">
+    <value>VEIL供应量</value>
+  </data>
+  <data name="RealTime_Zerocoin" xml:space="preserve">
+    <value>zerocoin</value>
+  </data>
+  <data name="RealTime_ZeroCoinSupply" xml:space="preserve">
+    <value>ZEROCOIN供应量</value>
+  </data>
+  <data name="StakeDistribution_1DayMA" xml:space="preserve">
+    <value>1日MA</value>
+  </data>
+  <data name="StakeDistribution_3DayMA" xml:space="preserve">
+    <value>3日MA</value>
+  </data>
+  <data name="StakeDistribution_7DayMA" xml:space="preserve">
+    <value>7日MA</value>
+  </data>
+  <data name="StakeDistribution_CalculationIncorrect" xml:space="preserve">
+    <value>如果您认为计算有误，请告诉我！</value>
+  </data>
+  <data name="StakeDistribution_ChartTitle" xml:space="preserve">
+    <value>PoS奖励分布——3日</value>
+  </data>
+  <data name="StakeDistribution_DenomConversionFn" xml:space="preserve">
+    <value>面额转换率=特定面额生成的区块数量/总PoS区块数量</value>
+  </data>
+  <data name="StakeDistribution_DenomEfficiencyFn" xml:space="preserve">
+    <value>面额效率=（面额转换率/面额占比）*100</value>
+  </data>
+  <data name="StakeDistribution_DenomPercentFn" xml:space="preserve">
+    <value>Denom percentage Supply = Number of Blocks Staked by Denom / Number of PoS Blocks</value>
+  </data>
+  <data name="StakeDistribution_DenomSupplyFn" xml:space="preserve">
+    <value>面额供应量=最近X个区块的该面额平均供应量</value>
+  </data>
+  <data name="StakeDistribution_DenomToggle" xml:space="preserve">
+    <value>点击不同面额以切换</value>
+  </data>
+  <data name="StakeDistribution_EfficiencyCalculation" xml:space="preserve">
+    <value>EFFICIENCY CALCULATION</value>
+  </data>
+  <data name="StakeDistribution_HowCalculated" xml:space="preserve">
+    <value>计算过程？</value>
+  </data>
+  <data name="StakeDistribution_LastUpdated" xml:space="preserve">
+    <value>更新于:</value>
+  </data>
+  <data name="StakeDistribution_MA1Day" xml:space="preserve">
+    <value>1日=1440个区块</value>
+  </data>
+  <data name="StakeDistribution_MA3Day" xml:space="preserve">
+    <value>3日=4320个区块</value>
+  </data>
+  <data name="StakeDistribution_MA7Day" xml:space="preserve">
+    <value>7日=10080个区块</value>
+  </data>
+  <data name="StakeDistribution_MovingAverage" xml:space="preserve">
+    <value>移动平均线——X区块</value>
+  </data>
+  <data name="StakeDistribution_NumberOfPosFn" xml:space="preserve">
+    <value>PoS区块数量=最近X个区块中的PoS区块数量</value>
+  </data>
+  <data name="StakeDistribution_NumberOfStakedFn" xml:space="preserve">
+    <value>特定面额生成的区块数量=最近X个区块中由选定面额所生成的区块数量</value>
+  </data>
+  <data name="StakeDistribution_RewardCalculation" xml:space="preserve">
+    <value>奖励计算</value>
+  </data>
+  <data name="StakeDistribution_SupplyCalculation" xml:space="preserve">
+    <value>供应量计算</value>
+  </data>
+  <data name="StakeDistribution_TotalSupplyFn" xml:space="preserve">
+    <value>总供应量=最近X个区块的平均zerocoin供应量</value>
+  </data>
+  <data name="StakeRoi_Daily" xml:space="preserve">
+    <value>每日</value>
+  </data>
+  <data name="StakeRoi_DailyPosBlocks" xml:space="preserve">
+    <value>Daily PoS blocks</value>
+  </data>
+  <data name="StakeRoi_LastUpdated" xml:space="preserve">
+    <value>更新于:</value>
+  </data>
+  <data name="StakeRoi_MainHeading" xml:space="preserve">
+    <value>PoS奖励频率估算</value>
+  </data>
+  <data name="StakeRoi_Monthly" xml:space="preserve">
+    <value>每周</value>
+  </data>
+  <data name="StakeRoi_MoreInformation" xml:space="preserve">
+    <value>更多信息</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions" xml:space="preserve">
+    <value>Stake ROI assumptions</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions1" xml:space="preserve">
+    <value>高端消费类CPU</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions2" xml:space="preserve">
+    <value>SSD或NVMe存储器</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions3" xml:space="preserve">
+    <value>大容量可用内存</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions4" xml:space="preserve">
+    <value>高速网络</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions5" xml:space="preserve">
+    <value>低延迟</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions6" xml:space="preserve">
+    <value>钱包始终处于开启、解锁和权益增值状态</value>
+  </data>
+  <data name="StakeRoi_StakeAssumptions7" xml:space="preserve">
+    <value>运气也是重要变量！</value>
+  </data>
+  <data name="StakeRoi_TotalZerocoins" xml:space="preserve">
+    <value>Zerocoin总量</value>
+  </data>
+  <data name="StakeRoi_Weekly" xml:space="preserve">
+    <value>每周</value>
+  </data>
+  <data name="StakeRoi_WhichDenomsBest" xml:space="preserve">
+    <value>Which denominations are best? Check here</value>
+  </data>
+  <data name="Transactions_180Days" xml:space="preserve">
+    <value>180日</value>
+  </data>
+  <data name="Transactions_30Days" xml:space="preserve">
+    <value>30日</value>
+  </data>
+  <data name="Transactions_60Days" xml:space="preserve">
+    <value>60日</value>
+  </data>
+  <data name="Transactions_7Days" xml:space="preserve">
+    <value>7 Days</value>
+  </data>
+  <data name="Transactions_90Days" xml:space="preserve">
+    <value>90日</value>
+  </data>
+  <data name="Transactions_BlockTransactions" xml:space="preserve">
+    <value>区块交易</value>
+  </data>
+  <data name="Transactions_PageSubTitle" xml:space="preserve">
+    <value>更新于:</value>
+  </data>
+  <data name="Transactions_PageTitle" xml:space="preserve">
+    <value>日均交易</value>
+  </data>
+</root>
