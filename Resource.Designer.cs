@@ -592,6 +592,60 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to The hash rate required for 24 hours to generate 1 Veil..
+        /// </summary>
+        public static string MiningCalc_Tooltip1 {
+            get {
+                return ResourceManager.GetString("MiningCalc_Tooltip1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 24hr average hash rate.
+        /// </summary>
+        public static string MiningCalc_Tooltip2 {
+            get {
+                return ResourceManager.GetString("MiningCalc_Tooltip2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to divided by.
+        /// </summary>
+        public static string MiningCalc_Tooltip3 {
+            get {
+                return ResourceManager.GetString("MiningCalc_Tooltip3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 24 hr reward total.
+        /// </summary>
+        public static string MiningCalc_Tooltip4 {
+            get {
+                return ResourceManager.GetString("MiningCalc_Tooltip4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to equals.
+        /// </summary>
+        public static string MiningCalc_Tooltip5 {
+            get {
+                return ResourceManager.GetString("MiningCalc_Tooltip5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to hash rate per coin.
+        /// </summary>
+        public static string MiningCalc_Tooltip6 {
+            get {
+                return ResourceManager.GetString("MiningCalc_Tooltip6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Week.
         /// </summary>
         public static string MiningCalc_Week {
@@ -682,6 +736,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Stats.
+        /// </summary>
+        public static string NavMenu_Stats {
+            get {
+                return ResourceManager.GetString("NavMenu_Stats", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Transactions.
         /// </summary>
         public static string NavMenu_Transactions {
@@ -750,6 +813,15 @@ namespace Resources {
         public static string Pow_LastUpdated {
             get {
                 return ResourceManager.GetString("Pow_LastUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Veil network and mining pool information.
+        /// </summary>
+        public static string Pow_MetaDescription {
+            get {
+                return ResourceManager.GetString("Pow_MetaDescription", resourceCulture);
             }
         }
         
@@ -903,6 +975,15 @@ namespace Resources {
         public static string RealTime_MarketPrice {
             get {
                 return ResourceManager.GetString("RealTime_MarketPrice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Veil Stats - visualize the Veil network information.
+        /// </summary>
+        public static string RealTime_MetaDescription {
+            get {
+                return ResourceManager.GetString("RealTime_MetaDescription", resourceCulture);
             }
         }
         
@@ -1069,15 +1150,6 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Denom Conversion Rate.
-        /// </summary>
-        public static string StakeDistribution_DenomConversionRate1 {
-            get {
-                return ResourceManager.GetString("StakeDistribution_DenomConversionRate1", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Denom Efficiency.
         /// </summary>
         public static string StakeDistribution_DenomEfficiency {
@@ -1101,15 +1173,6 @@ namespace Resources {
         public static string StakeDistribution_DenomPercentageSupply {
             get {
                 return ResourceManager.GetString("StakeDistribution_DenomPercentageSupply", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string StakeDistribution_DenomPercentageSupply1 {
-            get {
-                return ResourceManager.GetString("StakeDistribution_DenomPercentageSupply1", resourceCulture);
             }
         }
         
@@ -1204,6 +1267,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to PoS Reward Distribution - A 3 day view of denom staking performance.
+        /// </summary>
+        public static string StakeDistribution_MetaDescription {
+            get {
+                return ResourceManager.GetString("StakeDistribution_MetaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to MOVING AVERAGE - X BLOCKS.
         /// </summary>
         public static string StakeDistribution_MovingAverage {
@@ -1245,6 +1317,15 @@ namespace Resources {
         public static string StakeDistribution_NumberPoSBlocks {
             get {
                 return ResourceManager.GetString("StakeDistribution_NumberPoSBlocks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoS Reward Distribution.
+        /// </summary>
+        public static string StakeDistribution_PageTitle {
+            get {
+                return ResourceManager.GetString("StakeDistribution_PageTitle", resourceCulture);
             }
         }
         
@@ -1488,6 +1569,15 @@ namespace Resources {
         public static string Transactions_BlockTransactions {
             get {
                 return ResourceManager.GetString("Transactions_BlockTransactions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transaction counts on the Veil network.
+        /// </summary>
+        public static string Transactions_MetaDescription {
+            get {
+                return ResourceManager.GetString("Transactions_MetaDescription", resourceCulture);
             }
         }
         

@@ -294,6 +294,24 @@
   <data name="MiningCalc_RevDollar" xml:space="preserve">
     <value>Rev. $</value>
   </data>
+  <data name="MiningCalc_Tooltip1" xml:space="preserve">
+    <value>The hash rate required for 24 hours to generate 1 Veil.</value>
+  </data>
+  <data name="MiningCalc_Tooltip2" xml:space="preserve">
+    <value>24hr average hash rate</value>
+  </data>
+  <data name="MiningCalc_Tooltip3" xml:space="preserve">
+    <value>divided by</value>
+  </data>
+  <data name="MiningCalc_Tooltip4" xml:space="preserve">
+    <value>24 hr reward total</value>
+  </data>
+  <data name="MiningCalc_Tooltip5" xml:space="preserve">
+    <value>equals</value>
+  </data>
+  <data name="MiningCalc_Tooltip6" xml:space="preserve">
+    <value>hash rate per coin</value>
+  </data>
   <data name="MiningCalc_Week" xml:space="preserve">
     <value>Week</value>
   </data>
@@ -324,6 +342,9 @@
   <data name="NavMenu_Staking" xml:space="preserve">
     <value>Staking</value>
   </data>
+  <data name="NavMenu_Stats" xml:space="preserve">
+    <value>Stats</value>
+  </data>
   <data name="NavMenu_Transactions" xml:space="preserve">
     <value>Transactions</value>
   </data>
@@ -347,6 +368,9 @@
   </data>
   <data name="Pow_LastUpdated" xml:space="preserve">
     <value>Last updated:</value>
+  </data>
+  <data name="Pow_MetaDescription" xml:space="preserve">
+    <value>Veil network and mining pool information</value>
   </data>
   <data name="Pow_MiningPools" xml:space="preserve">
     <value>Mining Pools</value>
@@ -398,6 +422,9 @@
   </data>
   <data name="RealTime_MarketPrice" xml:space="preserve">
     <value>Market Price</value>
+  </data>
+  <data name="RealTime_MetaDescription" xml:space="preserve">
+    <value>Veil Stats - visualize the Veil network information</value>
   </data>
   <data name="RealTime_Other" xml:space="preserve">
     <value>other</value>
@@ -453,9 +480,6 @@
   <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
     <value>Denom Conversion Rate</value>
   </data>
-  <data name="StakeDistribution_DenomConversionRate1" xml:space="preserve">
-    <value>Denom Conversion Rate</value>
-  </data>
   <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
     <value>Denom Efficiency</value>
   </data>
@@ -464,9 +488,6 @@
   </data>
   <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
     <value>Denom Percentage Supply</value>
-  </data>
-  <data name="StakeDistribution_DenomPercentageSupply1" xml:space="preserve">
-    <value />
   </data>
   <data name="StakeDistribution_DenomPercentFn" xml:space="preserve">
     <value>Denom Conversion Rate = Number of Blocks Staked by Denom / Number of PoS Blocks</value>
@@ -498,6 +519,9 @@
   <data name="StakeDistribution_MA7Day" xml:space="preserve">
     <value>7 Day = 10080 Blocks</value>
   </data>
+  <data name="StakeDistribution_MetaDescription" xml:space="preserve">
+    <value>PoS Reward Distribution - A 3 day view of denom staking performance</value>
+  </data>
   <data name="StakeDistribution_MovingAverage" xml:space="preserve">
     <value>MOVING AVERAGE - X BLOCKS</value>
   </data>
@@ -512,6 +536,9 @@
   </data>
   <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
     <value>Number of PoS Blocks</value>
+  </data>
+  <data name="StakeDistribution_PageTitle" xml:space="preserve">
+    <value>PoS Reward Distribution</value>
   </data>
   <data name="StakeDistribution_RewardCalculation" xml:space="preserve">
     <value>REWARD CALCULATION</value>
@@ -593,6 +620,9 @@
   </data>
   <data name="Transactions_BlockTransactions" xml:space="preserve">
     <value>BLOCK TRANSACTIONS</value>
+  </data>
+  <data name="Transactions_MetaDescription" xml:space="preserve">
+    <value>Transaction counts on the Veil network</value>
   </data>
   <data name="Transactions_PageSubTitle" xml:space="preserve">
     <value>Last updated:</value>
