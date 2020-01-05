@@ -214,6 +214,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Block.
+        /// </summary>
+        public static string Charts_Block {
+            get {
+                return ResourceManager.GetString("Charts_Block", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Last updated:.
         /// </summary>
         public static string Charts_LastUpdated {
@@ -228,6 +237,15 @@ namespace Resources {
         public static string Charts_Live {
             get {
                 return ResourceManager.GetString("Charts_Live", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to A collections of charts detailing Veil network information.
+        /// </summary>
+        public static string Charts_MetaDescription {
+            get {
+                return ResourceManager.GetString("Charts_MetaDescription", resourceCulture);
             }
         }
         
@@ -250,6 +268,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to PoS Blocks (24h).
+        /// </summary>
+        public static string Charts_PosBlocks24hr {
+            get {
+                return ResourceManager.GetString("Charts_PosBlocks24hr", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to PoS Difficulty.
         /// </summary>
         public static string Charts_PosDifficulty {
@@ -264,6 +291,15 @@ namespace Resources {
         public static string Charts_PowBlocks {
             get {
                 return ResourceManager.GetString("Charts_PowBlocks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoW Blocks (24h).
+        /// </summary>
+        public static string Charts_PowBlocks24hr {
+            get {
+                return ResourceManager.GetString("Charts_PowBlocks24hr", resourceCulture);
             }
         }
         
@@ -318,6 +354,24 @@ namespace Resources {
         public static string DenomEfficiency_LastUpdated {
             get {
                 return ResourceManager.GetString("DenomEfficiency_LastUpdated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoS Reward Snapshot - A current view of denom staking performance.
+        /// </summary>
+        public static string DenomEfficiency_MetaDescription {
+            get {
+                return ResourceManager.GetString("DenomEfficiency_MetaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoS Reward Snapshot.
+        /// </summary>
+        public static string DenomEfficiency_MetaTitle {
+            get {
+                return ResourceManager.GetString("DenomEfficiency_MetaTitle", resourceCulture);
             }
         }
         
@@ -984,6 +1038,15 @@ namespace Resources {
         public static string RealTime_MetaDescription {
             get {
                 return ResourceManager.GetString("RealTime_MetaDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Real-Time Data.
+        /// </summary>
+        public static string RealTime_MetaTitle {
+            get {
+                return ResourceManager.GetString("RealTime_MetaTitle", resourceCulture);
             }
         }
         

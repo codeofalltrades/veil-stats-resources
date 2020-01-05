@@ -168,11 +168,17 @@
   <data name="Charts_90Days" xml:space="preserve">
     <value>90 Days</value>
   </data>
+  <data name="Charts_Block" xml:space="preserve">
+    <value>Block</value>
+  </data>
   <data name="Charts_LastUpdated" xml:space="preserve">
     <value>Last updated:</value>
   </data>
   <data name="Charts_Live" xml:space="preserve">
     <value>Live</value>
+  </data>
+  <data name="Charts_MetaDescription" xml:space="preserve">
+    <value>A collections of charts detailing Veil network information</value>
   </data>
   <data name="Charts_MoneySupply" xml:space="preserve">
     <value>MONEY SUPPLY</value>
@@ -180,11 +186,17 @@
   <data name="Charts_PosBlocks" xml:space="preserve">
     <value>PoS BLOCKS</value>
   </data>
+  <data name="Charts_PosBlocks24hr" xml:space="preserve">
+    <value>PoS Blocks (24h)</value>
+  </data>
   <data name="Charts_PosDifficulty" xml:space="preserve">
     <value>PoS Difficulty</value>
   </data>
   <data name="Charts_PowBlocks" xml:space="preserve">
     <value>PoW BLOCKS</value>
+  </data>
+  <data name="Charts_PowBlocks24hr" xml:space="preserve">
+    <value>PoW Blocks (24h)</value>
   </data>
   <data name="Charts_PowDifficulty" xml:space="preserve">
     <value>PoW Difficulty</value>
@@ -203,6 +215,12 @@
   </data>
   <data name="DenomEfficiency_LastUpdated" xml:space="preserve">
     <value>Last updated:</value>
+  </data>
+  <data name="DenomEfficiency_MetaDescription" xml:space="preserve">
+    <value>PoS Reward Snapshot - A current view of denom staking performance</value>
+  </data>
+  <data name="DenomEfficiency_MetaTitle" xml:space="preserve">
+    <value>PoS Reward Snapshot</value>
   </data>
   <data name="DenomEfficiency_RewardDistribution" xml:space="preserve">
     <value>Reward distribution</value>
@@ -425,6 +443,9 @@
   </data>
   <data name="RealTime_MetaDescription" xml:space="preserve">
     <value>Veil Stats - visualize the Veil network information</value>
+  </data>
+  <data name="RealTime_MetaTitle" xml:space="preserve">
+    <value>Real-Time Data</value>
   </data>
   <data name="RealTime_Other" xml:space="preserve">
     <value>other</value>
