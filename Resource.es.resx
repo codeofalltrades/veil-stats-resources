@@ -168,6 +168,9 @@
   <data name="Charts_90Days" xml:space="preserve">
     <value>90 Días</value>
   </data>
+  <data name="Charts_Block" xml:space="preserve">
+    <value>Block</value>
+  </data>
   <data name="Charts_LastUpdated" xml:space="preserve">
     <value>Última actualización:</value>
   </data>
@@ -179,6 +182,9 @@
   </data>
   <data name="Charts_PosBlocks" xml:space="preserve">
     <value>BLOQUES PoS</value>
+  </data>
+  <data name="Charts_PosBlocks24hr" xml:space="preserve">
+    <value>PoS Blocks (24h)</value>
   </data>
   <data name="Charts_PosDifficulty" xml:space="preserve">
     <value>Dificultad PoS</value>
@@ -563,5 +569,83 @@
   </data>
   <data name="Transactions_PageTitle" xml:space="preserve">
     <value>OPERACIONES DIARIAS</value>
+  </data>
+  <data name="Charts_PowBlocks24hr" xml:space="preserve">
+    <value>PoW Blocks (24h)</value>
+  </data>
+  <data name="DenomEfficiency_MetaDescription" xml:space="preserve">
+    <value>PoS Reward Snapshot - A current view of denom staking performance</value>
+  </data>
+  <data name="DenomEfficiency_MetaTitle" xml:space="preserve">
+    <value>PoS Reward Snapshot</value>
+  </data>
+  <data name="MiningCalc_Tooltip1" xml:space="preserve">
+    <value>The hash rate required for 24 hours to generate 1 Veil.</value>
+  </data>
+  <data name="MiningCalc_Tooltip2" xml:space="preserve">
+    <value>24hr average hash rate</value>
+  </data>
+  <data name="MiningCalc_Tooltip3" xml:space="preserve">
+    <value>divided by</value>
+  </data>
+  <data name="MiningCalc_Tooltip4" xml:space="preserve">
+    <value>24 hr reward total</value>
+  </data>
+  <data name="MiningCalc_Tooltip5" xml:space="preserve">
+    <value>equals</value>
+  </data>
+  <data name="MiningCalc_Tooltip6" xml:space="preserve">
+    <value>hash rate per coin</value>
+  </data>
+  <data name="NavMenu_Calculation" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="NavMenu_Distribution" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="NavMenu_Snapshot" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="NavMenu_Stats" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="Pow_MetaDescription" xml:space="preserve">
+    <value>Veil network and mining pool information</value>
+  </data>
+  <data name="RealTime_MetaDescription" xml:space="preserve">
+    <value>Veil Stats - visualize the Veil network information</value>
+  </data>
+  <data name="RealTime_MetaTitle" xml:space="preserve">
+    <value>Real-Time Data</value>
+  </data>
+  <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
+    <value>Denom Conversion Rate</value>
+  </data>
+  <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
+    <value>Denom Efficiency</value>
+  </data>
+  <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
+    <value>Denom Percentage Supply</value>
+  </data>
+  <data name="StakeDistribution_DenomSupply" xml:space="preserve">
+    <value>Denom Supply</value>
+  </data>
+  <data name="StakeDistribution_MetaDescription" xml:space="preserve">
+    <value>PoS Reward Distribution - A 3 day view of denom staking performance</value>
+  </data>
+  <data name="StakeDistribution_NumberBlocksStakedDenom" xml:space="preserve">
+    <value>Number of Blocks Staked by Denom</value>
+  </data>
+  <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
+    <value>Number of PoS Blocks</value>
+  </data>
+  <data name="StakeDistribution_PageTitle" xml:space="preserve">
+    <value>PoS Reward Distribution</value>
+  </data>
+  <data name="StakeDistribution_TotalSupply" xml:space="preserve">
+    <value>Total Supply</value>
+  </data>
+  <data name="Transactions_MetaDescription" xml:space="preserve">
+    <value>Transaction counts on the Veil network</value>
   </data>
 </root>
