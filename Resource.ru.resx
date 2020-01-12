@@ -373,7 +373,7 @@
     <value>Сайт сделан codeofalltrades</value>
   </data>
   <data name="RealTime_Last24Hours" xml:space="preserve">
-    <value>Last 24 Hours</value>
+    <value>За последние 24 часа</value>
   </data>
   <data name="RealTime_LastBlock" xml:space="preserve">
     <value>Последний блок</value>
@@ -406,7 +406,7 @@
     <value>PoW cложность</value>
   </data>
   <data name="RealTime_TotalAllTime" xml:space="preserve">
-    <value>Total All-Time</value>
+    <value>Всего за все время</value>
   </data>
   <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
     <value>бюджет Veil</value>
@@ -529,7 +529,7 @@
     <value>Кошелек, не залоченный и открытый 24/7</value>
   </data>
   <data name="StakeRoi_StakeAssumptions7" xml:space="preserve">
-    <value>In the end luck is a factor!</value>
+    <value>Удача :)</value>
   </data>
   <data name="StakeRoi_TotalZerocoins" xml:space="preserve">
     <value>Всего в zerocoin</value>
@@ -565,87 +565,135 @@
     <value>Ежедневные транзакции</value>
   </data>
   <data name="Charts_Block" xml:space="preserve">
-    <value>Block</value>
+    <value>Блок</value>
   </data>
   <data name="Charts_MetaDescription" xml:space="preserve">
-    <value>A collections of charts detailing Veil network information</value>
+    <value>Графики, детализирующие информацию о сети Veil</value>
   </data>
   <data name="Charts_PowBlocks24hr" xml:space="preserve">
-    <value>PoW Blocks (24h)</value>
+    <value>PoW блоки</value>
   </data>
   <data name="DenomEfficiency_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Snapshot - A current view of denom staking performance</value>
+    <value>Распределение вознаграждения PoS - Лучшие деномы за 3 дня</value>
   </data>
   <data name="DenomEfficiency_MetaTitle" xml:space="preserve">
-    <value>PoS Reward Snapshot</value>
+    <value>Распределение вознаграждения PoS</value>
   </data>
   <data name="MiningCalc_Tooltip1" xml:space="preserve">
-    <value>The hash rate required for 24 hours to generate 1 Veil.</value>
+    <value>Хэшрейт за 24 часа, необходимый для добычи 1 Veil</value>
   </data>
   <data name="MiningCalc_Tooltip2" xml:space="preserve">
-    <value>24hr average hash rate</value>
+    <value>Средний хэшрейт за 24 часа</value>
   </data>
   <data name="MiningCalc_Tooltip3" xml:space="preserve">
-    <value>divided by</value>
+    <value>деленное на</value>
   </data>
   <data name="MiningCalc_Tooltip4" xml:space="preserve">
-    <value>24 hr reward total</value>
+    <value>Вознаграждение за 24 часа</value>
   </data>
   <data name="MiningCalc_Tooltip5" xml:space="preserve">
-    <value>equals</value>
+    <value>равно</value>
   </data>
   <data name="MiningCalc_Tooltip6" xml:space="preserve">
-    <value>hash rate per coin</value>
+    <value>Хэшрейт на монету</value>
   </data>
   <data name="NavMenu_Calculation" xml:space="preserve">
-    <value>Calculation</value>
+    <value>Расчет</value>
   </data>
   <data name="NavMenu_Distribution" xml:space="preserve">
-    <value>Distribution</value>
+    <value>Распределение</value>
   </data>
   <data name="NavMenu_Snapshot" xml:space="preserve">
-    <value>Snapshot</value>
+    <value>스냅샷</value>
   </data>
   <data name="NavMenu_Stats" xml:space="preserve">
-    <value>Stats</value>
+    <value>Статистика</value>
   </data>
   <data name="Pow_MetaDescription" xml:space="preserve">
-    <value>Veil network and mining pool information</value>
+    <value>Сеть Veil и информация о майнинг пулах</value>
   </data>
   <data name="RealTime_MetaDescription" xml:space="preserve">
-    <value>Veil Stats - visualize the Veil network information</value>
+    <value>Veil Статистика - вся информация о сети Veil в одном месте</value>
   </data>
   <data name="RealTime_MetaTitle" xml:space="preserve">
-    <value>Real-Time Data</value>
+    <value>Данные в реальном времени</value>
   </data>
   <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
-    <value>Denom Conversion Rate</value>
+    <value>Коэффициент конверсии денома</value>
   </data>
   <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
-    <value>Denom Efficiency</value>
+    <value>Эффективность денома</value>
   </data>
   <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
-    <value>Denom Percentage Supply</value>
+    <value>Процент монет в деномах</value>
   </data>
   <data name="StakeDistribution_DenomSupply" xml:space="preserve">
-    <value>Denom Supply</value>
+    <value>Монет в деномах</value>
   </data>
   <data name="StakeDistribution_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Distribution - A 3 day view of denom staking performance</value>
+    <value>Распределение вознаграждения PoS - Лучшие деномы за 3 дня</value>
   </data>
   <data name="StakeDistribution_NumberBlocksStakedDenom" xml:space="preserve">
-    <value>Number of Blocks Staked by Denom</value>
+    <value>Количество блоков, созданных деномом</value>
   </data>
   <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
-    <value>Number of PoS Blocks</value>
+    <value>Количество PoS блоков</value>
   </data>
   <data name="StakeDistribution_PageTitle" xml:space="preserve">
-    <value>PoS Reward Distribution</value>
+    <value>Количество транзакций в сети Veil</value>
   </data>
   <data name="StakeDistribution_TotalSupply" xml:space="preserve">
-    <value>Total Supply</value>
+    <value>Всего монет</value>
   </data>
   <data name="Transactions_MetaDescription" xml:space="preserve">
-    <value>Transaction counts on the Veil network</value>
+    <value>Количество транзакций в сети Veil</value>
+  </data>
+  <data name="Script_0_5DayMA" xml:space="preserve">
+    <value>Полдня</value>
+  </data>
+  <data name="Script_1DayMA" xml:space="preserve">
+    <value>1 день</value>
+  </data>
+  <data name="Script_3DayMA" xml:space="preserve">
+    <value>3 дня</value>
+  </data>
+  <data name="Script_7DayMA" xml:space="preserve">
+    <value>7 дней</value>
+  </data>
+  <data name="Script_Block" xml:space="preserve">
+    <value>Блок</value>
+  </data>
+  <data name="Script_DailyTransactions" xml:space="preserve">
+    <value>Ежедневные транзакции</value>
+  </data>
+  <data name="Script_Difficulty" xml:space="preserve">
+    <value>Сложность</value>
+  </data>
+  <data name="Script_Efficiency" xml:space="preserve">
+    <value>Эффективность</value>
+  </data>
+  <data name="Script_Live" xml:space="preserve">
+    <value>Сейчас</value>
+  </data>
+  <data name="Script_PosBlocks" xml:space="preserve">
+    <value>PoS блоки</value>
+  </data>
+  <data name="Script_PowBlocks" xml:space="preserve">
+    <value>PoW блоки</value>
+  </data>
+  <data name="Script_PowPosSplit" xml:space="preserve">
+    <value>Соотношение PoS/PoW</value>
+  </data>
+  <data name="Script_RewardDistribution" xml:space="preserve">
+    <value>Распределение по наградам</value>
+  </data>
+  <data name="Script_SupplyDistribution" xml:space="preserve">
+    <value>Распределение от общего кол-ва</value>
+  </data>
+  <data name="Script_TotalSupply" xml:space="preserve">
+    <value>Всего монет</value>
+  </data>
+  <data name="Script_Transactions" xml:space="preserve">
+    <value>Транзакции</value>
   </data>
 </root>

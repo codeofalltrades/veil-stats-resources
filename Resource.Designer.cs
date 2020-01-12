@@ -1150,6 +1150,150 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 1/2 Day MA.
+        /// </summary>
+        public static string Script_0_5DayMA {
+            get {
+                return ResourceManager.GetString("Script_0_5DayMA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1 Day MA.
+        /// </summary>
+        public static string Script_1DayMA {
+            get {
+                return ResourceManager.GetString("Script_1DayMA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 3 Day MA.
+        /// </summary>
+        public static string Script_3DayMA {
+            get {
+                return ResourceManager.GetString("Script_3DayMA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 7 Day MA.
+        /// </summary>
+        public static string Script_7DayMA {
+            get {
+                return ResourceManager.GetString("Script_7DayMA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Block.
+        /// </summary>
+        public static string Script_Block {
+            get {
+                return ResourceManager.GetString("Script_Block", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Daily Transactions.
+        /// </summary>
+        public static string Script_DailyTransactions {
+            get {
+                return ResourceManager.GetString("Script_DailyTransactions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Difficulty.
+        /// </summary>
+        public static string Script_Difficulty {
+            get {
+                return ResourceManager.GetString("Script_Difficulty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Efficiency.
+        /// </summary>
+        public static string Script_Efficiency {
+            get {
+                return ResourceManager.GetString("Script_Efficiency", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Live.
+        /// </summary>
+        public static string Script_Live {
+            get {
+                return ResourceManager.GetString("Script_Live", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoS Blocks.
+        /// </summary>
+        public static string Script_PosBlocks {
+            get {
+                return ResourceManager.GetString("Script_PosBlocks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoW Blocks.
+        /// </summary>
+        public static string Script_PowBlocks {
+            get {
+                return ResourceManager.GetString("Script_PowBlocks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to PoS/PoW SPLIT.
+        /// </summary>
+        public static string Script_PowPosSplit {
+            get {
+                return ResourceManager.GetString("Script_PowPosSplit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Reward Distribution.
+        /// </summary>
+        public static string Script_RewardDistribution {
+            get {
+                return ResourceManager.GetString("Script_RewardDistribution", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Supply Distribution.
+        /// </summary>
+        public static string Script_SupplyDistribution {
+            get {
+                return ResourceManager.GetString("Script_SupplyDistribution", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Total Supply.
+        /// </summary>
+        public static string Script_TotalSupply {
+            get {
+                return ResourceManager.GetString("Script_TotalSupply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Transactions.
+        /// </summary>
+        public static string Script_Transactions {
+            get {
+                return ResourceManager.GetString("Script_Transactions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 1 Day MA.
         /// </summary>
         public static string StakeDistribution_1DayMA {

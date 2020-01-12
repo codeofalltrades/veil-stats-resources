@@ -289,8 +289,7 @@
     <value>重设</value>
   </data>
   <data name="MiningCalc_RevBtc" xml:space="preserve">
-    <value>ReBTC估值
-BTC估值</value>
+    <value>BTC估值</value>
   </data>
   <data name="MiningCalc_RevDollar" xml:space="preserve">
     <value>美元估值</value>
@@ -302,8 +301,7 @@ BTC估值</value>
     <value>年</value>
   </data>
   <data name="NavMenu_Charts" xml:space="preserve">
-    <value>"
-图表"</value>
+    <value>图表</value>
   </data>
   <data name="NavMenu_MiningCalculator" xml:space="preserve">
     <value>挖矿计算器</value>
@@ -375,7 +373,7 @@ BTC估值</value>
     <value>由codeofalltrades创建</value>
   </data>
   <data name="RealTime_Last24Hours" xml:space="preserve">
-    <value>Last 24 Hours</value>
+    <value>过去24小时</value>
   </data>
   <data name="RealTime_LastBlock" xml:space="preserve">
     <value>最新区块</value>
@@ -552,7 +550,7 @@ BTC估值</value>
     <value>60日</value>
   </data>
   <data name="Transactions_7Days" xml:space="preserve">
-    <value>7 Days</value>
+    <value>7日</value>
   </data>
   <data name="Transactions_90Days" xml:space="preserve">
     <value>90日</value>
@@ -561,93 +559,141 @@ BTC估值</value>
     <value>区块交易</value>
   </data>
   <data name="Transactions_PageSubTitle" xml:space="preserve">
-    <value>更新于:</value>
+    <value>更新于：</value>
   </data>
   <data name="Transactions_PageTitle" xml:space="preserve">
     <value>日均交易</value>
   </data>
   <data name="Charts_Block" xml:space="preserve">
-    <value>Block</value>
+    <value>区块</value>
   </data>
   <data name="Charts_MetaDescription" xml:space="preserve">
     <value>A collections of charts detailing Veil network information</value>
   </data>
   <data name="Charts_PowBlocks24hr" xml:space="preserve">
-    <value>PoW Blocks (24h)</value>
+    <value>PoS区块</value>
   </data>
   <data name="DenomEfficiency_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Snapshot - A current view of denom staking performance</value>
+    <value>PoS奖励快照 - 当前的特定面额进行权益增值时的绩效</value>
   </data>
   <data name="DenomEfficiency_MetaTitle" xml:space="preserve">
-    <value>PoS Reward Snapshot</value>
+    <value>PoS奖励快照</value>
   </data>
   <data name="MiningCalc_Tooltip1" xml:space="preserve">
-    <value>The hash rate required for 24 hours to generate 1 Veil.</value>
+    <value>平均每24小时挖出1个Veil所需要的哈希</value>
   </data>
   <data name="MiningCalc_Tooltip2" xml:space="preserve">
-    <value>24hr average hash rate</value>
+    <value>24小时平均哈希</value>
   </data>
   <data name="MiningCalc_Tooltip3" xml:space="preserve">
-    <value>divided by</value>
+    <value>除以</value>
   </data>
   <data name="MiningCalc_Tooltip4" xml:space="preserve">
-    <value>24 hr reward total</value>
+    <value>24小时总区块奖励</value>
   </data>
   <data name="MiningCalc_Tooltip5" xml:space="preserve">
-    <value>equals</value>
+    <value>等于</value>
   </data>
   <data name="MiningCalc_Tooltip6" xml:space="preserve">
-    <value>hash rate per coin</value>
+    <value>每币所需哈希</value>
   </data>
   <data name="NavMenu_Calculation" xml:space="preserve">
-    <value>Calculation</value>
+    <value>计算</value>
   </data>
   <data name="NavMenu_Distribution" xml:space="preserve">
-    <value>Distribution</value>
+    <value>分配</value>
   </data>
   <data name="NavMenu_Snapshot" xml:space="preserve">
-    <value>Snapshot</value>
+    <value>快照</value>
   </data>
   <data name="NavMenu_Stats" xml:space="preserve">
-    <value>Stats</value>
+    <value>统计</value>
   </data>
   <data name="Pow_MetaDescription" xml:space="preserve">
-    <value>Veil network and mining pool information</value>
+    <value>Veil网络与矿池信息</value>
   </data>
   <data name="RealTime_MetaDescription" xml:space="preserve">
-    <value>Veil Stats - visualize the Veil network information</value>
+    <value>Veil统计 - 可视化显示Veil的网络信息</value>
   </data>
   <data name="RealTime_MetaTitle" xml:space="preserve">
-    <value>Real-Time Data</value>
+    <value>实时数据</value>
   </data>
   <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
-    <value>Denom Conversion Rate</value>
+    <value>面额转换率</value>
   </data>
   <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
-    <value>Denom Efficiency</value>
+    <value>面额效率</value>
   </data>
   <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
-    <value>Denom Percentage Supply</value>
+    <value>面额占比</value>
   </data>
   <data name="StakeDistribution_DenomSupply" xml:space="preserve">
-    <value>Denom Supply</value>
+    <value>面额总量</value>
   </data>
   <data name="StakeDistribution_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Distribution - A 3 day view of denom staking performance</value>
+    <value>PoS奖励分配 - 3日内特定面额进行权益增值时的绩效</value>
   </data>
   <data name="StakeDistribution_NumberBlocksStakedDenom" xml:space="preserve">
-    <value>Number of Blocks Staked by Denom</value>
+    <value>面额生成的区块数量</value>
   </data>
   <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
-    <value>Number of PoS Blocks</value>
+    <value>PoS区块数量</value>
   </data>
   <data name="StakeDistribution_PageTitle" xml:space="preserve">
-    <value>PoS Reward Distribution</value>
+    <value>PoS奖励分配</value>
   </data>
   <data name="StakeDistribution_TotalSupply" xml:space="preserve">
-    <value>Total Supply</value>
+    <value>总供应量</value>
   </data>
   <data name="Transactions_MetaDescription" xml:space="preserve">
-    <value>Transaction counts on the Veil network</value>
+    <value>Veil网络中的转账计数</value>
+  </data>
+  <data name="Script_0_5DayMA" xml:space="preserve">
+    <value>12小时MA</value>
+  </data>
+  <data name="Script_1DayMA" xml:space="preserve">
+    <value>1日MA</value>
+  </data>
+  <data name="Script_3DayMA" xml:space="preserve">
+    <value>3日MA</value>
+  </data>
+  <data name="Script_7DayMA" xml:space="preserve">
+    <value>7日MA</value>
+  </data>
+  <data name="Script_Block" xml:space="preserve">
+    <value>区块</value>
+  </data>
+  <data name="Script_DailyTransactions" xml:space="preserve">
+    <value>日均交易</value>
+  </data>
+  <data name="Script_Difficulty" xml:space="preserve">
+    <value>难度</value>
+  </data>
+  <data name="Script_Efficiency" xml:space="preserve">
+    <value>效率</value>
+  </data>
+  <data name="Script_Live" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="Script_PosBlocks" xml:space="preserve">
+    <value>PoS区块</value>
+  </data>
+  <data name="Script_PowBlocks" xml:space="preserve">
+    <value>PoW区块</value>
+  </data>
+  <data name="Script_PowPosSplit" xml:space="preserve">
+    <value>PoS/PoW拆分</value>
+  </data>
+  <data name="Script_RewardDistribution" xml:space="preserve">
+    <value>奖励分配</value>
+  </data>
+  <data name="Script_SupplyDistribution" xml:space="preserve">
+    <value>Supply distribution</value>
+  </data>
+  <data name="Script_TotalSupply" xml:space="preserve">
+    <value>总供应量</value>
+  </data>
+  <data name="Script_Transactions" xml:space="preserve">
+    <value>交易</value>
   </data>
 </root>

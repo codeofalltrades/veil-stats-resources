@@ -373,7 +373,7 @@
     <value>codeofalltrades에 의해 개발</value>
   </data>
   <data name="RealTime_Last24Hours" xml:space="preserve">
-    <value>Last 24 Hours</value>
+    <value>지난 24시간</value>
   </data>
   <data name="RealTime_LastBlock" xml:space="preserve">
     <value>최신 블럭</value>
@@ -406,7 +406,7 @@
     <value>PoW 난위도</value>
   </data>
   <data name="RealTime_TotalAllTime" xml:space="preserve">
-    <value>Total All-Time</value>
+    <value>전체시간</value>
   </data>
   <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
     <value>베일 예산</value>
@@ -559,93 +559,141 @@
     <value>블럭 내역</value>
   </data>
   <data name="Transactions_PageSubTitle" xml:space="preserve">
-    <value> 최종 업데이트:</value>
+    <value>최종 업데이트:</value>
   </data>
   <data name="Transactions_PageTitle" xml:space="preserve">
     <value>일 거래내역</value>
   </data>
   <data name="Charts_Block" xml:space="preserve">
-    <value>Block</value>
+    <value>블럭</value>
   </data>
   <data name="Charts_MetaDescription" xml:space="preserve">
-    <value>A collections of charts detailing Veil network information</value>
+    <value>베일 네트워크 현황을 보실수 있는 모든 차트들</value>
   </data>
   <data name="Charts_PowBlocks24hr" xml:space="preserve">
-    <value>PoW Blocks (24h)</value>
+    <value>PoW 블럭 (24시간)</value>
   </data>
   <data name="DenomEfficiency_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Snapshot - A current view of denom staking performance</value>
+    <value>PoS 보상 스냅샷 - 현재 권종별 스테이킹 효율</value>
   </data>
   <data name="DenomEfficiency_MetaTitle" xml:space="preserve">
-    <value>PoS Reward Snapshot</value>
+    <value>PoS 보상 스냅샷</value>
   </data>
   <data name="MiningCalc_Tooltip1" xml:space="preserve">
-    <value>The hash rate required for 24 hours to generate 1 Veil.</value>
+    <value>24시간에 1베일을 채굴하기 위해 요구되는 해쉬</value>
   </data>
   <data name="MiningCalc_Tooltip2" xml:space="preserve">
-    <value>24hr average hash rate</value>
+    <value>24시간 평균 해쉬율</value>
   </data>
   <data name="MiningCalc_Tooltip3" xml:space="preserve">
-    <value>divided by</value>
+    <value>나누기</value>
   </data>
   <data name="MiningCalc_Tooltip4" xml:space="preserve">
-    <value>24 hr reward total</value>
+    <value>24시간 총 보상</value>
   </data>
   <data name="MiningCalc_Tooltip5" xml:space="preserve">
-    <value>equals</value>
+    <value>계산시</value>
   </data>
   <data name="MiningCalc_Tooltip6" xml:space="preserve">
-    <value>hash rate per coin</value>
+    <value>코인별 해쉬율</value>
   </data>
   <data name="NavMenu_Calculation" xml:space="preserve">
-    <value>Calculation</value>
+    <value>계산</value>
   </data>
   <data name="NavMenu_Distribution" xml:space="preserve">
-    <value>Distribution</value>
+    <value>분배</value>
   </data>
   <data name="NavMenu_Snapshot" xml:space="preserve">
-    <value>Snapshot</value>
+    <value>스냅샷</value>
   </data>
   <data name="NavMenu_Stats" xml:space="preserve">
-    <value>Stats</value>
+    <value>통계</value>
   </data>
   <data name="Pow_MetaDescription" xml:space="preserve">
-    <value>Veil network and mining pool information</value>
+    <value>베일 네트워크 및 채굴풀 정보</value>
   </data>
   <data name="RealTime_MetaDescription" xml:space="preserve">
-    <value>Veil Stats - visualize the Veil network information</value>
+    <value>베일 통계 - 쉽게 알수있는 베일 네트워크 현황</value>
   </data>
   <data name="RealTime_MetaTitle" xml:space="preserve">
-    <value>Real-Time Data</value>
+    <value>실시간 데이터</value>
   </data>
   <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
-    <value>Denom Conversion Rate</value>
+    <value>권종 변환율</value>
   </data>
   <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
-    <value>Denom Efficiency</value>
+    <value>권종별 효율</value>
   </data>
   <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
-    <value>Denom Percentage Supply</value>
+    <value>권종별 퍼센티지 수량</value>
   </data>
   <data name="StakeDistribution_DenomSupply" xml:space="preserve">
-    <value>Denom Supply</value>
+    <value>권종 수량</value>
   </data>
   <data name="StakeDistribution_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Distribution - A 3 day view of denom staking performance</value>
+    <value>PoS 보상 스냅샷 - 현재 권종별 스테이킹 효율</value>
   </data>
   <data name="StakeDistribution_NumberBlocksStakedDenom" xml:space="preserve">
-    <value>Number of Blocks Staked by Denom</value>
+    <value>권종별 스테이킹된 블럭</value>
   </data>
   <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
-    <value>Number of PoS Blocks</value>
+    <value>PoS블럭 수량</value>
   </data>
   <data name="StakeDistribution_PageTitle" xml:space="preserve">
-    <value>PoS Reward Distribution</value>
+    <value>PoS 보상 수량</value>
   </data>
   <data name="StakeDistribution_TotalSupply" xml:space="preserve">
-    <value>Total Supply</value>
+    <value>총 수량</value>
   </data>
   <data name="Transactions_MetaDescription" xml:space="preserve">
-    <value>Transaction counts on the Veil network</value>
+    <value>베일 네트워크상 전송 카운트</value>
+  </data>
+  <data name="Script_0_5DayMA" xml:space="preserve">
+    <value>1/2일 MA</value>
+  </data>
+  <data name="Script_1DayMA" xml:space="preserve">
+    <value>1일 MA</value>
+  </data>
+  <data name="Script_3DayMA" xml:space="preserve">
+    <value>3일 MA</value>
+  </data>
+  <data name="Script_7DayMA" xml:space="preserve">
+    <value>7일 MA</value>
+  </data>
+  <data name="Script_Block" xml:space="preserve">
+    <value>블럭</value>
+  </data>
+  <data name="Script_DailyTransactions" xml:space="preserve">
+    <value>일 거래내역</value>
+  </data>
+  <data name="Script_Difficulty" xml:space="preserve">
+    <value>난위도</value>
+  </data>
+  <data name="Script_Efficiency" xml:space="preserve">
+    <value>효율</value>
+  </data>
+  <data name="Script_Live" xml:space="preserve">
+    <value>실시간</value>
+  </data>
+  <data name="Script_PosBlocks" xml:space="preserve">
+    <value>PoS 블럭</value>
+  </data>
+  <data name="Script_PowBlocks" xml:space="preserve">
+    <value>PoW 블럭</value>
+  </data>
+  <data name="Script_PowPosSplit" xml:space="preserve">
+    <value>PoS/PoW 분리</value>
+  </data>
+  <data name="Script_RewardDistribution" xml:space="preserve">
+    <value>보상 수량</value>
+  </data>
+  <data name="Script_SupplyDistribution" xml:space="preserve">
+    <value>스테이킹 수량</value>
+  </data>
+  <data name="Script_TotalSupply" xml:space="preserve">
+    <value>총 수량</value>
+  </data>
+  <data name="Script_Transactions" xml:space="preserve">
+    <value>전송내역</value>
   </data>
 </root>

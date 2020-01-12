@@ -177,14 +177,14 @@
   <data name="Charts_Live" xml:space="preserve">
     <value>En vivo</value>
   </data>
-  <data name="Charts_MoneySupply" xml:space="preserve">
+ <data name="Charts_MoneySupply" xml:space="preserve">
     <value>SUMINISTRO DE DINERO</value>
   </data>
   <data name="Charts_PosBlocks" xml:space="preserve">
     <value>BLOQUES PoS</value>
   </data>
   <data name="Charts_PosBlocks24hr" xml:space="preserve">
-    <value>PoS Blocks (24h)</value>
+    <value>Bloques PoS (24h)</value>
   </data>
   <data name="Charts_PosDifficulty" xml:space="preserve">
     <value>Dificultad PoS</value>
@@ -193,7 +193,7 @@
     <value>BLOQUES PoW</value>
   </data>
   <data name="Charts_PowDifficulty" xml:space="preserve">
-    <value>DIFICULTAD PoW</value>
+    <value>Dificultad PoW</value>
   </data>
   <data name="Charts_PowPosSplitCount" xml:space="preserve">
     <value>PoS/PoW DIVISIÓN - CONTEO</value>
@@ -379,7 +379,7 @@
     <value>desarrollado por</value>
   </data>
   <data name="RealTime_Last24Hours" xml:space="preserve">
-    <value>Last 24 Hours</value>
+    <value>Últimas 24h:</value>
   </data>
   <data name="RealTime_LastBlock" xml:space="preserve">
     <value>ÚLTIMO BLOQUE</value>
@@ -571,81 +571,129 @@
     <value>OPERACIONES DIARIAS</value>
   </data>
   <data name="Charts_PowBlocks24hr" xml:space="preserve">
-    <value>PoW Blocks (24h)</value>
+    <value>Bloques PoW (24h)</value>
   </data>
   <data name="DenomEfficiency_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Snapshot - A current view of denom staking performance</value>
+    <value>Snapshot de Recompensas PoS - Una vista actual del rendimiento de staking por denom</value>
   </data>
   <data name="DenomEfficiency_MetaTitle" xml:space="preserve">
-    <value>PoS Reward Snapshot</value>
+    <value>Snapshot de Recompensas PoS</value>
   </data>
   <data name="MiningCalc_Tooltip1" xml:space="preserve">
-    <value>The hash rate required for 24 hours to generate 1 Veil.</value>
+    <value>La tasa de hash requerida durante 24 horas para generar 1 Veil.</value>
   </data>
   <data name="MiningCalc_Tooltip2" xml:space="preserve">
-    <value>24hr average hash rate</value>
+    <value>Tasa de hash promedio de 24 horas</value>
   </data>
   <data name="MiningCalc_Tooltip3" xml:space="preserve">
-    <value>divided by</value>
+    <value>dividido por</value>
   </data>
   <data name="MiningCalc_Tooltip4" xml:space="preserve">
-    <value>24 hr reward total</value>
+    <value>Total de recompensa en 24 hrs</value>
   </data>
   <data name="MiningCalc_Tooltip5" xml:space="preserve">
-    <value>equals</value>
+    <value>es igual a</value>
   </data>
   <data name="MiningCalc_Tooltip6" xml:space="preserve">
-    <value>hash rate per coin</value>
+    <value>tasa de hash por moneda</value>
   </data>
   <data name="NavMenu_Calculation" xml:space="preserve">
-    <value>Calculation</value>
+    <value>Cálculo</value>
   </data>
   <data name="NavMenu_Distribution" xml:space="preserve">
-    <value>Distribution</value>
+    <value>Distribución</value>
   </data>
   <data name="NavMenu_Snapshot" xml:space="preserve">
     <value>Snapshot</value>
   </data>
   <data name="NavMenu_Stats" xml:space="preserve">
-    <value>Stats</value>
+    <value>Estadísticas</value>
   </data>
   <data name="Pow_MetaDescription" xml:space="preserve">
     <value>Veil network and mining pool information</value>
   </data>
   <data name="RealTime_MetaDescription" xml:space="preserve">
-    <value>Veil Stats - visualize the Veil network information</value>
+    <value>Veil Stats - Visualiza la información de la red Veil</value>
   </data>
   <data name="RealTime_MetaTitle" xml:space="preserve">
-    <value>Real-Time Data</value>
+    <value>Datos en Tiempo Real</value>
   </data>
   <data name="StakeDistribution_DenomConversionRate" xml:space="preserve">
-    <value>Denom Conversion Rate</value>
+    <value>Tasa de Conversión de Denom</value>
   </data>
   <data name="StakeDistribution_DenomEfficiency" xml:space="preserve">
-    <value>Denom Efficiency</value>
+    <value>Eficiencia de Denom</value>
   </data>
   <data name="StakeDistribution_DenomPercentageSupply" xml:space="preserve">
-    <value>Denom Percentage Supply</value>
+    <value>Porcentaje de Suministro de Denom</value>
   </data>
   <data name="StakeDistribution_DenomSupply" xml:space="preserve">
-    <value>Denom Supply</value>
+    <value>Suministro de Denom</value>
   </data>
   <data name="StakeDistribution_MetaDescription" xml:space="preserve">
-    <value>PoS Reward Distribution - A 3 day view of denom staking performance</value>
+    <value>Distribución de Recompensas PoS - Una vista de 3 días del rendimiento de staking por denom</value>
   </data>
   <data name="StakeDistribution_NumberBlocksStakedDenom" xml:space="preserve">
-    <value>Number of Blocks Staked by Denom</value>
+    <value>Número de Bloques de Stake por Denom</value>
   </data>
   <data name="StakeDistribution_NumberPoSBlocks" xml:space="preserve">
-    <value>Number of PoS Blocks</value>
+    <value>Número de Bloques PoS</value>
   </data>
   <data name="StakeDistribution_PageTitle" xml:space="preserve">
-    <value>PoS Reward Distribution</value>
+    <value>Distribución de Recompensas PoS</value>
   </data>
   <data name="StakeDistribution_TotalSupply" xml:space="preserve">
-    <value>Total Supply</value>
+    <value>Suministro Total</value>
   </data>
   <data name="Transactions_MetaDescription" xml:space="preserve">
     <value>Transaction counts on the Veil network</value>
+  </data>
+  <data name="Script_0_5DayMA" xml:space="preserve">
+    <value>1/2 Día MA</value>
+  </data>
+  <data name="Script_1DayMA" xml:space="preserve">
+    <value>1 Día MA</value>
+  </data>
+  <data name="Script_3DayMA" xml:space="preserve">
+    <value>3 Día MA</value>
+  </data>
+  <data name="Script_7DayMA" xml:space="preserve">
+    <value>7 Día MA</value>
+  </data>
+  <data name="Script_Block" xml:space="preserve">
+    <value>Bloque</value>
+  </data>
+  <data name="Script_DailyTransactions" xml:space="preserve">
+    <value>OPERACIONES DIARIAS</value>
+  </data>
+  <data name="Script_Difficulty" xml:space="preserve">
+    <value>Dificultad</value>
+  </data>
+  <data name="Script_Efficiency" xml:space="preserve">
+    <value>Eficiencia</value>
+  </data>
+  <data name="Script_Live" xml:space="preserve">
+    <value>En vivo</value>
+  </data>
+  <data name="Script_PosBlocks" xml:space="preserve">
+    <value>Bloque PoS</value>
+  </data>
+  <data name="Script_PowBlocks" xml:space="preserve">
+    <value>Bloque PoW</value>
+  </data>
+  <data name="Script_PowPosSplit" xml:space="preserve">
+    <value>PoS/PoW DIVISIÓN</value>
+  </data>
+  <data name="Script_RewardDistribution" xml:space="preserve">
+    <value>Distribución de las recompensas</value>
+  </data>
+  <data name="Script_SupplyDistribution" xml:space="preserve">
+    <value>Distribución del suministro</value>
+  </data>
+  <data name="Script_TotalSupply" xml:space="preserve">
+    <value>Suministro Total</value>
+  </data>
+  <data name="Script_Transactions" xml:space="preserve">
+    <value>Transacciones</value>
   </data>
 </root>

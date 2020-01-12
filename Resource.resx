@@ -480,6 +480,54 @@
   <data name="RealTime_ZeroCoinSupply" xml:space="preserve">
     <value>ZEROCOIN SUPPLY</value>
   </data>
+  <data name="Script_0_5DayMA" xml:space="preserve">
+    <value>1/2 Day MA</value>
+  </data>
+  <data name="Script_1DayMA" xml:space="preserve">
+    <value>1 Day MA</value>
+  </data>
+  <data name="Script_3DayMA" xml:space="preserve">
+    <value>3 Day MA</value>
+  </data>
+  <data name="Script_7DayMA" xml:space="preserve">
+    <value>7 Day MA</value>
+  </data>
+  <data name="Script_Block" xml:space="preserve">
+    <value>Block</value>
+  </data>
+  <data name="Script_DailyTransactions" xml:space="preserve">
+    <value>Daily Transactions</value>
+  </data>
+  <data name="Script_Difficulty" xml:space="preserve">
+    <value>Difficulty</value>
+  </data>
+  <data name="Script_Efficiency" xml:space="preserve">
+    <value>Efficiency</value>
+  </data>
+  <data name="Script_Live" xml:space="preserve">
+    <value>Live</value>
+  </data>
+  <data name="Script_PosBlocks" xml:space="preserve">
+    <value>PoS Blocks</value>
+  </data>
+  <data name="Script_PowBlocks" xml:space="preserve">
+    <value>PoW Blocks</value>
+  </data>
+  <data name="Script_PowPosSplit" xml:space="preserve">
+    <value>PoS/PoW SPLIT</value>
+  </data>
+  <data name="Script_RewardDistribution" xml:space="preserve">
+    <value>Reward Distribution</value>
+  </data>
+  <data name="Script_SupplyDistribution" xml:space="preserve">
+    <value>Supply Distribution</value>
+  </data>
+  <data name="Script_TotalSupply" xml:space="preserve">
+    <value>Total Supply</value>
+  </data>
+  <data name="Script_Transactions" xml:space="preserve">
+    <value>Transactions</value>
+  </data>
   <data name="StakeDistribution_1DayMA" xml:space="preserve">
     <value>1 Day MA</value>
   </data>
