@@ -4,3 +4,5 @@
 
 /.vs/veil-web-translations/v16/Server/sqlite3
 /.vs/veil-web-translations/v16/.suo
+/bin/Debug/netstandard2.0
+/obj

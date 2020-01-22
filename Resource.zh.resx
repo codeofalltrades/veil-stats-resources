@@ -334,7 +334,7 @@
     <value>当前区块</value>
   </data>
   <data name="Pow_GlobalHash" xml:space="preserve">
-    <value>GLOBAL HASH</value>
+    <value>全部哈希</value>
   </data>
   <data name="Pow_LastUpdated" xml:space="preserve">
     <value>更新于:</value>
@@ -358,7 +358,7 @@
     <value>PoW难度</value>
   </data>
   <data name="Pow_UnknownHash" xml:space="preserve">
-    <value>UNKNOWN HASH</value>
+    <value>未知哈希</value>
   </data>
   <data name="Pow_Workers" xml:space="preserve">
     <value>工人</value>
@@ -406,7 +406,7 @@
     <value>PoW难度</value>
   </data>
   <data name="RealTime_TotalAllTime" xml:space="preserve">
-    <value>Total All-Time</value>
+    <value>总数</value>
   </data>
   <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
     <value>Veil预算金</value>
@@ -445,7 +445,7 @@
     <value>面额效率=（面额转换率/面额占比）*100</value>
   </data>
   <data name="StakeDistribution_DenomPercentFn" xml:space="preserve">
-    <value>Denom percentage Supply = Number of Blocks Staked by Denom / Number of PoS Blocks</value>
+    <value />
   </data>
   <data name="StakeDistribution_DenomSupplyFn" xml:space="preserve">
     <value>面额供应量=最近X个区块的该面额平均供应量</value>
@@ -454,7 +454,7 @@
     <value>点击不同面额以切换</value>
   </data>
   <data name="StakeDistribution_EfficiencyCalculation" xml:space="preserve">
-    <value>EFFICIENCY CALCULATION</value>
+    <value>效率计算</value>
   </data>
   <data name="StakeDistribution_HowCalculated" xml:space="preserve">
     <value>计算过程？</value>
@@ -493,7 +493,7 @@
     <value>每日</value>
   </data>
   <data name="StakeRoi_DailyPosBlocks" xml:space="preserve">
-    <value>Daily PoS blocks</value>
+    <value>每日PoS区块数量</value>
   </data>
   <data name="StakeRoi_LastUpdated" xml:space="preserve">
     <value>更新于:</value>
@@ -508,7 +508,7 @@
     <value>更多信息</value>
   </data>
   <data name="StakeRoi_StakeAssumptions" xml:space="preserve">
-    <value>Stake ROI assumptions</value>
+    <value>权益增值的年化率估算</value>
   </data>
   <data name="StakeRoi_StakeAssumptions1" xml:space="preserve">
     <value>高端消费类CPU</value>
@@ -538,7 +538,7 @@
     <value>每周</value>
   </data>
   <data name="StakeRoi_WhichDenomsBest" xml:space="preserve">
-    <value>Which denominations are best? Check here</value>
+    <value>哪一个面额最佳？</value>
   </data>
   <data name="Transactions_180Days" xml:space="preserve">
     <value>180日</value>
@@ -695,5 +695,8 @@
   </data>
   <data name="Script_Transactions" xml:space="preserve">
     <value>交易</value>
+  </data>
+  <data name="StakeRoi_ClickHere" xml:space="preserve">
+    <value>点这里</value>
   </data>
 </root>

@@ -1501,7 +1501,7 @@ namespace VeilWebTranslations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Number of PoS Blocks = Count of PoS over the last X blocks.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string StakeDistribution_NumberOfPosFn {
             get {
@@ -1510,7 +1510,7 @@ namespace VeilWebTranslations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Number of Blocks Staked by Denom = Count of block the selected denom staked over the last X blocks.
+        ///   Looks up a localized string similar to .
         /// </summary>
         public static string StakeDistribution_NumberOfStakedFn {
             get {
@@ -1569,6 +1569,15 @@ namespace VeilWebTranslations {
         public static string StakeDistribution_TotalSupplyFn {
             get {
                 return ResourceManager.GetString("StakeDistribution_TotalSupplyFn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Click here.
+        /// </summary>
+        public static string StakeRoi_ClickHere {
+            get {
+                return ResourceManager.GetString("StakeRoi_ClickHere", resourceCulture);
             }
         }
         
@@ -1717,7 +1726,7 @@ namespace VeilWebTranslations {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Which denominations are best? Check here.
+        ///   Looks up a localized string similar to Which denominations are best?.
         /// </summary>
         public static string StakeRoi_WhichDenomsBest {
             get {

@@ -177,7 +177,7 @@
   <data name="Charts_Live" xml:space="preserve">
     <value>En vivo</value>
   </data>
- <data name="Charts_MoneySupply" xml:space="preserve">
+  <data name="Charts_MoneySupply" xml:space="preserve">
     <value>SUMINISTRO DE DINERO</value>
   </data>
   <data name="Charts_PosBlocks" xml:space="preserve">
@@ -610,7 +610,7 @@
     <value>Estadísticas</value>
   </data>
   <data name="Pow_MetaDescription" xml:space="preserve">
-    <value>Veil network and mining pool information</value>
+    <value>Veil información de red y grupo de minería</value>
   </data>
   <data name="RealTime_MetaDescription" xml:space="preserve">
     <value>Veil Stats - Visualiza la información de la red Veil</value>
@@ -695,5 +695,11 @@
   </data>
   <data name="Script_Transactions" xml:space="preserve">
     <value>Transacciones</value>
+  </data>
+  <data name="StakeRoi_ClickHere" xml:space="preserve">
+    <value>Click here</value>
+  </data>
+  <data name="String" xml:space="preserve">
+    <value>haga clic aquí</value>
   </data>
 </root>

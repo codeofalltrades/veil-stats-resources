@@ -367,7 +367,7 @@
     <value>줌 &gt; 클릭 또는 터치 드레그</value>
   </data>
   <data name="RealTime_About" xml:space="preserve">
-    <value>About</value>
+    <value>약</value>
   </data>
   <data name="RealTime_BuiltBy" xml:space="preserve">
     <value>codeofalltrades에 의해 개발</value>
@@ -695,5 +695,8 @@
   </data>
   <data name="Script_Transactions" xml:space="preserve">
     <value>전송내역</value>
+  </data>
+  <data name="StakeRoi_ClickHere" xml:space="preserve">
+    <value>여기를 클릭하십시오</value>
   </data>
 </root>

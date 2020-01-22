@@ -310,7 +310,7 @@
     <value>Майнинг пулы</value>
   </data>
   <data name="NavMenu_RealTime" xml:space="preserve">
-    <value>Обновить</value>
+    <value>Прямо сейчас</value>
   </data>
   <data name="NavMenu_Staking" xml:space="preserve">
     <value>Стэкинг</value>
@@ -367,7 +367,7 @@
     <value>Для увеличиения графика -&gt; Кликни или коснись + Потяни!</value>
   </data>
   <data name="RealTime_About" xml:space="preserve">
-    <value>About</value>
+    <value>Около</value>
   </data>
   <data name="RealTime_BuiltBy" xml:space="preserve">
     <value>Сайт сделан codeofalltrades</value>
@@ -695,5 +695,8 @@
   </data>
   <data name="Script_Transactions" xml:space="preserve">
     <value>Транзакции</value>
+  </data>
+  <data name="StakeRoi_ClickHere" xml:space="preserve">
+    <value>подробнее</value>
   </data>
 </root>
