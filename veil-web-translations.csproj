@@ -59,6 +59,7 @@
     <EmbeddedResource Include="Resource.zh.resx" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="LICENSE" />
     <None Include="README.md" />
   </ItemGroup>

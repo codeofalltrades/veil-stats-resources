@@ -5,12 +5,6 @@ C:\Git\veil-web-translations\bin\Debug\ko\veil-web-translations.resources.dll
 C:\Git\veil-web-translations\bin\Debug\ru\veil-web-translations.resources.dll
 C:\Git\veil-web-translations\bin\Debug\zh\veil-web-translations.resources.dll
 C:\Git\veil-web-translations\obj\Debug\veil-web-translations.csproj.GenerateResource.cache
-C:\Git\veil-stats\aSharedDlls\VeilWebTranslations.dll
-C:\Git\veil-stats\aSharedDlls\VeilWebTranslations.pdb
-C:\Git\veil-stats\aSharedDlls\es\VeilWebTranslations.resources.dll
-C:\Git\veil-stats\aSharedDlls\ko\VeilWebTranslations.resources.dll
-C:\Git\veil-stats\aSharedDlls\ru\VeilWebTranslations.resources.dll
-C:\Git\veil-stats\aSharedDlls\zh\VeilWebTranslations.resources.dll
 C:\Git\veil-web-translations\obj\Debug\VeilWebTranslations.Resource.resources
 C:\Git\veil-web-translations\obj\Debug\VeilWebTranslations.Resource.es.resources
 C:\Git\veil-web-translations\obj\Debug\VeilWebTranslations.Resource.ko.resources
@@ -23,6 +17,12 @@ C:\Git\veil-web-translations\obj\Debug\zh\VeilWebTranslations.resources.dll
 C:\Git\veil-web-translations\obj\Debug\VeilWebTranslations.dll
 C:\Git\veil-web-translations\obj\Debug\VeilWebTranslations.pdb
 C:\Git\veil-web-translations\obj\Debug\veil-web-translations.csprojAssemblyReference.cache
+C:\Git\veil-stats\aSharedDlls\VeilWebTranslations.dll
+C:\Git\veil-stats\aSharedDlls\VeilWebTranslations.pdb
+C:\Git\veil-stats\aSharedDlls\es\VeilWebTranslations.resources.dll
+C:\Git\veil-stats\aSharedDlls\ko\VeilWebTranslations.resources.dll
+C:\Git\veil-stats\aSharedDlls\ru\VeilWebTranslations.resources.dll
+C:\Git\veil-stats\aSharedDlls\zh\VeilWebTranslations.resources.dll
 C:\Git\veil-stats-resources\obj\Debug\VeilWebTranslations.Resource.resources
 C:\Git\veil-stats-resources\obj\Debug\VeilWebTranslations.Resource.es.resources
 C:\Git\veil-stats-resources\obj\Debug\VeilWebTranslations.Resource.ko.resources

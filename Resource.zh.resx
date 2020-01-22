@@ -217,7 +217,7 @@
     <value>PoS奖励快照——7日</value>
   </data>
   <data name="DenomEfficiency_SupplyDistribution" xml:space="preserve">
-    <value>Supply distribution</value>
+    <value>供应分布</value>
   </data>
   <data name="MiningCalc_24hrDiffAvg" xml:space="preserve">
     <value>24小时平均难度</value>
@@ -256,13 +256,13 @@
     <value>费用</value>
   </data>
   <data name="MiningCalc_Hashrate" xml:space="preserve">
-    <value>Hash rate</value>
+    <value>哈希率</value>
   </data>
   <data name="MiningCalc_HashRatePerCoin" xml:space="preserve">
     <value>每个币的哈希率</value>
   </data>
   <data name="MiningCalc_Hour" xml:space="preserve">
-    <value>Hour</value>
+    <value>小时</value>
   </data>
   <data name="MiningCalc_Month" xml:space="preserve">
     <value>月</value>
@@ -367,7 +367,7 @@
     <value>缩放窗口-&gt;点击或按住+拖动！</value>
   </data>
   <data name="RealTime_About" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="RealTime_BuiltBy" xml:space="preserve">
     <value>由codeofalltrades创建</value>
@@ -568,7 +568,7 @@
     <value>区块</value>
   </data>
   <data name="Charts_MetaDescription" xml:space="preserve">
-    <value>A collections of charts detailing Veil network information</value>
+    <value>一系列关于Veil网络信息的详尽图表</value>
   </data>
   <data name="Charts_PowBlocks24hr" xml:space="preserve">
     <value>PoS区块</value>
@@ -688,7 +688,7 @@
     <value>奖励分配</value>
   </data>
   <data name="Script_SupplyDistribution" xml:space="preserve">
-    <value>Supply distribution</value>
+    <value>供应分布</value>
   </data>
   <data name="Script_TotalSupply" xml:space="preserve">
     <value>总供应量</value>
