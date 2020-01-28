@@ -379,7 +379,7 @@
     <value>desarrollado por</value>
   </data>
   <data name="RealTime_Last24Hours" xml:space="preserve">
-    <value>Últimas 24h:</value>
+    <value>Últimas 24 horas</value>
   </data>
   <data name="RealTime_LastBlock" xml:space="preserve">
     <value>ÚLTIMO BLOQUE</value>
@@ -412,7 +412,7 @@
     <value>DIFT PoW</value>
   </data>
   <data name="RealTime_TotalAllTime" xml:space="preserve">
-    <value>Total All-Time</value>
+    <value>Total Histórico</value>
   </data>
   <data name="RealTime_VeilBudgetExcess" xml:space="preserve">
     <value>Exceso de Veil del Presupuesto</value>
@@ -646,7 +646,7 @@
     <value>Suministro Total</value>
   </data>
   <data name="Transactions_MetaDescription" xml:space="preserve">
-    <value>Transaction counts on the Veil network</value>
+    <value>La transacción cuenta con la red Veil</value>
   </data>
   <data name="Script_0_5DayMA" xml:space="preserve">
     <value>1/2 Día MA</value>
@@ -697,7 +697,7 @@
     <value>Transacciones</value>
   </data>
   <data name="StakeRoi_ClickHere" xml:space="preserve">
-    <value>Click here</value>
+    <value>Haga clic aquí</value>
   </data>
   <data name="String" xml:space="preserve">
     <value>haga clic aquí</value>
