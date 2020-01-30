@@ -367,10 +367,10 @@
     <value>줌 &gt; 클릭 또는 터치 드레그</value>
   </data>
   <data name="RealTime_About" xml:space="preserve">
-    <value>약</value>
+    <value>기타</value>
   </data>
   <data name="RealTime_BuiltBy" xml:space="preserve">
-    <value>codeofalltrades에 의해 개발</value>
+    <value>에 의해 개발</value>
   </data>
   <data name="RealTime_Last24Hours" xml:space="preserve">
     <value>지난 24시간</value>
